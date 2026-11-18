@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Роберт Нойс"
+schema: niti/v1
+kind: person
+id: robert-noyce
+title: Роберт Нойс
 aliases: []
-id: "robert-noyce"
 ---
 
 # Роберт Нойс

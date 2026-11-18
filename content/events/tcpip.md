@@ -1,14 +1,25 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Переход на TCP/IP"
-date: {"start":"1983","end":null,"precision":"year","basis":"event"}
-topics: ["net"]
-people: ["vint-cerf","bob-kahn"]
-organizations: ["darpa","arpanet"]
-status: "draft"
-sources: ["internet","darpa"]
-id: "tcpip"
+schema: niti/v1
+kind: event
+id: tcpip
+title: Переход на TCP/IP
+date:
+  start: "1983"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - net
+people:
+  - vint-cerf
+  - bob-kahn
+organizations:
+  - darpa
+  - arpanet
+status: draft
+sources:
+  - internet
+  - darpa
 ---
 
 # Переход на TCP/IP

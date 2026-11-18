@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Стэнли Мэйзор"
+schema: niti/v1
+kind: person
+id: stanley-mazor
+title: Стэнли Мэйзор
 aliases: []
-id: "stanley-mazor"
 ---
 
 # Стэнли Мэйзор

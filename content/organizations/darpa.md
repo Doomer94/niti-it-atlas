@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "DARPA"
+schema: niti/v1
+kind: organization
+id: darpa
+title: DARPA
 aliases: []
-id: "darpa"
 ---
 
 # DARPA

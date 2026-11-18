@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Дэн Ингаллс"
+schema: niti/v1
+kind: person
+id: dan-ingalls
+title: Дэн Ингаллс
 aliases: []
-id: "dan-ingalls"
 ---
 
 # Дэн Ингаллс

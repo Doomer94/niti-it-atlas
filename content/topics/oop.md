@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "topic"
-title: "Идеи и ООП"
+schema: niti/v1
+kind: topic
+id: oop
+title: Идеи и ООП
 color: "#b9ed88"
-id: "oop"
 ---
 
 

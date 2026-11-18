@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Алан Кей"
+schema: niti/v1
+kind: person
+id: alan-kay
+title: Алан Кей
 aliases: []
-id: "alan-kay"
 ---
 
 # Алан Кей

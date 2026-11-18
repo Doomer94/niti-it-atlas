@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Intel"
+schema: niti/v1
+kind: organization
+id: intel
+title: Intel
 aliases: []
-id: "intel"
 ---
 
 # Intel

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "UCSB"
+schema: niti/v1
+kind: organization
+id: ucsb
+title: UCSB
 aliases: []
-id: "ucsb"
 ---
 
 # UCSB

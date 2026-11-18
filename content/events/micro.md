@@ -1,14 +1,27 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Микропроцессор 4004"
-date: {"start":"1971","end":null,"precision":"year","basis":"event"}
-topics: ["chip"]
-people: ["federico-faggin","ted-hoff","stanley-mazor","masatoshi-shima"]
-organizations: ["intel","busicom"]
-status: "draft"
-sources: ["silicon"]
-id: "micro"
+schema: niti/v1
+kind: event
+id: micro
+title: Микропроцессор 4004
+date:
+  start: "1971"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - chip
+people:
+  - federico-faggin
+  - ted-hoff
+  - stanley-mazor
+  - masatoshi-shima
+organizations:
+  - intel
+  - busicom
+status: draft
+sources:
+  - silicon
+  - wesling-valley-origins
 ---
 
 # Микропроцессор 4004
@@ -24,3 +37,11 @@ Intel представляет 4004 — коммерческий однокри�
 ## Значение
 
 Процессор становится отдельным массово производимым компонентом.
+
+## Примечание
+
+Лекция кратко выделяет Теда Хоффа; карточка сохраняет также Федерико Фаджина, Стэнли Мазора и Масатоси Симу. Авторство архитектуры, схем, реализации и программного обеспечения не следует сводить к одному человеку.
+
+## Подробнее
+
+Stanford: 00:45:02–00:45:59.

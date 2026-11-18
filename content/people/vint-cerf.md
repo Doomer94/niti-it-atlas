@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Винтон Серф"
+schema: niti/v1
+kind: person
+id: vint-cerf
+title: Винтон Серф
 aliases: []
-id: "vint-cerf"
 ---
 
 # Винтон Серф

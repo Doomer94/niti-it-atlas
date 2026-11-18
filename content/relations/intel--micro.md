@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "intel"
-to: "micro"
-type: "tech"
-certainty: "supported"
-status: "draft"
-evidence: [{"source":"silicon","locator":null}]
-id: "intel--micro"
+schema: niti/v1
+kind: relation
+id: intel--micro
+from: intel
+to: micro
+type: tech
+certainty: supported
+status: draft
+evidence:
+  - source: silicon
+    locator: null
 ---
 
 # intel → micro

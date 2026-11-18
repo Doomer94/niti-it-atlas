@@ -1,13 +1,17 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import YAML from '../vendor/yaml/dist/index.js';
 export const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const FOLDERS={events:'event',people:'person',organizations:'organization',sources:'source',relations:'relation',topics:'topic'};
 const fail=(file,message)=>{throw new Error(`${file}: ${message}`);};
 export function parseMarkdown(text,file='record.md'){
  const m=text.replace(/^\uFEFF/,'').replace(/\r\n/g,'\n').match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
  if(!m)fail(file,'ожидается frontmatter между строками ---');
- const meta={};for(const line of m[1].split('\n')){if(!line.trim())continue;const p=line.match(/^([a-z_]+): (.+)$/);if(!p)fail(file,'метаданные: key: JSON-значение, одна строка на поле');if(Object.hasOwn(meta,p[1]))fail(file,`повтор поля ${p[1]}`);try{meta[p[1]]=JSON.parse(p[2]);}catch{fail(file,`неверное JSON-значение ${p[1]}`);}}
+ const document=YAML.parseDocument(m[1],{version:'1.2',schema:'core',uniqueKeys:true,stringKeys:true});
+ if(document.errors.length||document.warnings.length)fail(file,'ошибка YAML: '+[...document.errors,...document.warnings].map(e=>e.message).join('; '));
+ let meta;try{meta=document.toJS({maxAliasCount:50});}catch(e){fail(file,'ошибка YAML: '+e.message);}
+ if(!meta||typeof meta!=='object'||Array.isArray(meta))fail(file,'frontmatter должен быть YAML-объектом');
  if(meta.schema!=='niti/v1')fail(file,'неподдерживаемая версия schema');
  if(!/^[a-z][a-z0-9-]*$/.test(meta.id||''))fail(file,'некорректный id');
  const sections={};let section=null;for(const line of m[2].split('\n')){const h=line.match(/^## (.+)$/);if(h){if(Object.hasOwn(sections,h[1]))fail(file,`повтор раздела ${h[1]}`);section=h[1];sections[section]='';}else if(section)sections[section]+=line+'\n';}
@@ -23,6 +27,9 @@ export function validate(db){
  const status=r=>{if(!['draft','reviewed'].includes(r.status))fail(r.file,'status: draft | reviewed');};
  const dateValue=(v,precision)=>{if(typeof v!=='string')return false;const re={year:/^\d{4}$/,month:/^\d{4}-\d{2}$/,day:/^\d{4}-\d{2}-\d{2}$/}[precision];if(!re?.test(v)||+v.slice(0,4)<1)return false;const full=v+(precision==='year'?'-01-01':precision==='month'?'-01':'');const d=new Date(full+'T00:00:00Z');return Number.isFinite(+d)&&d.toISOString().startsWith(full);};
  for(const [folder,records] of Object.entries(db))for(const r of records.values()){
+  const common=['schema','kind','id','body','sections','file'];const fields={events:['title','date','topics','people','organizations','status','sources'],people:['title','aliases'],organizations:['title','aliases'],sources:['title','url','source_type','language'],topics:['title','color'],relations:['from','to','type','certainty','status','evidence']}[folder];
+  for(const key of Object.keys(r))if(!common.includes(key)&&!fields.includes(key))fail(r.file,`неизвестное поле ${key}`);
+  if(folder==='sources')str(r,'language');
   if(folder!=='relations')str(r,'title');
   if(folder==='sources'){str(r,'url');let url;try{url=new URL(r.url);}catch{fail(r.file,'некорректный URL');}if(!['https:','http:'].includes(url.protocol))fail(r.file,'источник должен иметь http(s) URL');if(!['primary','institutional','secondary'].includes(r.source_type))fail(r.file,'неверный source_type');}
   if(folder==='topics'&&!/^#[0-9a-fA-F]{6}$/.test(r.color))fail(r.file,'color: #RRGGBB');

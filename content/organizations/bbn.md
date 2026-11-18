@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "BBN"
+schema: niti/v1
+kind: organization
+id: bbn
+title: BBN
 aliases: []
-id: "bbn"
 ---
 
 # BBN

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Busicom"
+schema: niti/v1
+kind: organization
+id: busicom
+title: Busicom
 aliases: []
-id: "busicom"
 ---
 
 # Busicom

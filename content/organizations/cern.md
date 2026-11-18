@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "CERN"
+schema: niti/v1
+kind: organization
+id: cern
+title: CERN
 aliases: []
-id: "cern"
 ---
 
 # CERN

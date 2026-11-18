@@ -1,11 +1,11 @@
 ---
-schema: "niti/v1"
-kind: "source"
-title: "Intel · История основания"
-url: "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html"
-source_type: "institutional"
-language: "en"
-id: "intel"
+schema: niti/v1
+kind: source
+id: intel
+title: Intel · История основания
+url: https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html
+source_type: institutional
+language: en
 ---
 
 # Intel · История основания

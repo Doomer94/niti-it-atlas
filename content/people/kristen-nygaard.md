@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Кристен Нюгор"
+schema: niti/v1
+kind: person
+id: kristen-nygaard
+title: Кристен Нюгор
 aliases: []
-id: "kristen-nygaard"
 ---
 
 # Кристен Нюгор

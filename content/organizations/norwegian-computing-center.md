@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Norwegian Computing Center"
+schema: niti/v1
+kind: organization
+id: norwegian-computing-center
+title: Norwegian Computing Center
 aliases: []
-id: "norwegian-computing-center"
 ---
 
 # Norwegian Computing Center

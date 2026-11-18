@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Федерико Фаджин"
+schema: niti/v1
+kind: person
+id: federico-faggin
+title: Федерико Фаджин
 aliases: []
-id: "federico-faggin"
 ---
 
 # Федерико Фаджин

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Адель Голдберг"
+schema: niti/v1
+kind: person
+id: adele-goldberg
+title: Адель Голдберг
 aliases: []
-id: "adele-goldberg"
 ---
 
 # Адель Голдберг

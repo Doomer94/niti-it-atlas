@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Fairchild Semiconductor"
+schema: niti/v1
+kind: organization
+id: fairchild-semiconductor
+title: Fairchild Semiconductor
 aliases: []
-id: "fairchild-semiconductor"
 ---
 
 # Fairchild Semiconductor

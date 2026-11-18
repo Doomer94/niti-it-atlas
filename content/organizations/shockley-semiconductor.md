@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Shockley Semiconductor"
+schema: niti/v1
+kind: organization
+id: shockley-semiconductor
+title: Shockley Semiconductor
 aliases: []
-id: "shockley-semiconductor"
 ---
 
 # Shockley Semiconductor

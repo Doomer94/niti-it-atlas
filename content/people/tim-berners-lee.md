@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Тим Бернерс-Ли"
+schema: niti/v1
+kind: person
+id: tim-berners-lee
+title: Тим Бернерс-Ли
 aliases: []
-id: "tim-berners-lee"
 ---
 
 # Тим Бернерс-Ли

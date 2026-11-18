@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "tcp"
-to: "tcpip"
-type: "tech"
-certainty: "supported"
-status: "draft"
-evidence: [{"source":"internet","locator":null}]
-id: "tcp--tcpip"
+schema: niti/v1
+kind: relation
+id: tcp--tcpip
+from: tcp
+to: tcpip
+type: tech
+certainty: supported
+status: draft
+evidence:
+  - source: internet
+    locator: null
 ---
 
 # tcp → tcpip

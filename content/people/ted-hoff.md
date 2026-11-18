@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Тед Хофф"
+schema: niti/v1
+kind: person
+id: ted-hoff
+title: Тед Хофф
 aliases: []
-id: "ted-hoff"
 ---
 
 # Тед Хофф

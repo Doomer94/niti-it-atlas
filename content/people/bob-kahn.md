@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Боб Кан"
+schema: niti/v1
+kind: person
+id: bob-kahn
+title: Боб Кан
 aliases: []
-id: "bob-kahn"
 ---
 
 # Боб Кан

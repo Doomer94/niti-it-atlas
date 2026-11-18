@@ -1,11 +1,11 @@
 ---
-schema: "niti/v1"
-kind: "source"
-title: "Дуглас Росс и Кларенс Фельдман · Отчёт об AED, 1964"
-url: "https://doi.org/10.1145/800265.810743"
-source_type: "primary"
-language: "en"
-id: "plex"
+schema: niti/v1
+kind: source
+id: plex
+title: Дуглас Росс и Кларенс Фельдман · Отчёт об AED, 1964
+url: https://doi.org/10.1145/800265.810743
+source_type: primary
+language: en
 ---
 
 # Дуглас Росс и Кларенс Фельдман · Отчёт об AED, 1964

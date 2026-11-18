@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Stanford University"
+schema: niti/v1
+kind: organization
+id: stanford-university
+title: Stanford University
 aliases: []
-id: "stanford-university"
 ---
 
 # Stanford University

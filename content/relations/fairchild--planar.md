@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "fairchild"
-to: "planar"
-type: "tech"
-certainty: "supported"
-status: "draft"
-evidence: [{"source":"silicon","locator":null}]
-id: "fairchild--planar"
+schema: niti/v1
+kind: relation
+id: fairchild--planar
+from: fairchild
+to: planar
+type: tech
+certainty: supported
+status: draft
+evidence:
+  - source: silicon
+    locator: null
 ---
 
 # fairchild → planar

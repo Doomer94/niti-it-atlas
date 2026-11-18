@@ -1,14 +1,22 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Предложение Web"
-date: {"start":"1989","end":null,"precision":"year","basis":"event"}
-topics: ["net"]
-people: ["tim-berners-lee"]
-organizations: ["cern"]
-status: "draft"
-sources: ["cern"]
-id: "web"
+schema: niti/v1
+kind: event
+id: web
+title: Предложение Web
+date:
+  start: "1989"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - net
+people:
+  - tim-berners-lee
+organizations:
+  - cern
+status: draft
+sources:
+  - cern
 ---
 
 # Предложение Web

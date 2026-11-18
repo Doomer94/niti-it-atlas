@@ -1,14 +1,23 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Планарный процесс"
-date: {"start":"1959","end":null,"precision":"year","basis":"event"}
-topics: ["chip"]
-people: ["jean-hoerni"]
-organizations: ["fairchild-semiconductor"]
-status: "draft"
-sources: ["silicon"]
-id: "planar"
+schema: niti/v1
+kind: event
+id: planar
+title: Планарный процесс
+date:
+  start: "1959"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - chip
+people:
+  - jean-hoerni
+organizations:
+  - fairchild-semiconductor
+status: draft
+sources:
+  - silicon
+  - wesling-valley-origins
 ---
 
 # Планарный процесс
@@ -24,3 +33,7 @@ id: "planar"
 ## Значение
 
 Процесс помогает перейти к монолитным интегральным схемам.
+
+## Подробнее
+
+Stanford: 00:43:00–00:44:59. Лекция предлагает контекст инфраструктуры и навыков ламповой промышленности; это не доказательство прямого заимствования технологии у конкретной компании.

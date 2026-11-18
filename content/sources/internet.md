@@ -1,11 +1,11 @@
 ---
-schema: "niti/v1"
-kind: "source"
-title: "Internet Society · История Интернета, рассказанная участниками"
-url: "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
-source_type: "institutional"
-language: "en"
-id: "internet"
+schema: niti/v1
+kind: source
+id: internet
+title: Internet Society · История Интернета, рассказанная участниками
+url: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
+source_type: institutional
+language: en
 ---
 
 # Internet Society · История Интернета, рассказанная участниками

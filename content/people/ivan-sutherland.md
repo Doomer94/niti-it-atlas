@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Айвен Сазерленд"
+schema: niti/v1
+kind: person
+id: ivan-sutherland
+title: Айвен Сазерленд
 aliases: []
-id: "ivan-sutherland"
 ---
 
 # Айвен Сазерленд

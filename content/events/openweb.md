@@ -1,14 +1,22 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Web становится открытым"
-date: {"start":"1993","end":null,"precision":"year","basis":"event"}
-topics: ["net"]
-people: ["tim-berners-lee"]
-organizations: ["cern"]
-status: "draft"
-sources: ["cern"]
-id: "openweb"
+schema: niti/v1
+kind: event
+id: openweb
+title: Web становится открытым
+date:
+  start: "1993"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - net
+people:
+  - tim-berners-lee
+organizations:
+  - cern
+status: draft
+sources:
+  - cern
 ---
 
 # Web становится открытым

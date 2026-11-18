@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Ларри Робертс"
+schema: niti/v1
+kind: person
+id: larry-roberts
+title: Ларри Робертс
 aliases: []
-id: "larry-roberts"
 ---
 
 # Ларри Робертс

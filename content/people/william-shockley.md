@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Уильям Шокли"
+schema: niti/v1
+kind: person
+id: william-shockley
+title: Уильям Шокли
 aliases: []
-id: "william-shockley"
 ---
 
 # Уильям Шокли

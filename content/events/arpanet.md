@@ -1,14 +1,29 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Четыре узла ARPANET"
-date: {"start":"1969","end":null,"precision":"year","basis":"event"}
-topics: ["net"]
-people: ["larry-roberts","bob-kahn"]
-organizations: ["arpa","bbn","ucla","sri","ucsb","university-of-utah"]
-status: "draft"
-sources: ["darpa","internet"]
-id: "arpanet"
+schema: niti/v1
+kind: event
+id: arpanet
+title: Четыре узла ARPANET
+date:
+  start: "1969"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - net
+people:
+  - larry-roberts
+  - bob-kahn
+organizations:
+  - arpa
+  - bbn
+  - ucla
+  - sri
+  - ucsb
+  - university-of-utah
+status: draft
+sources:
+  - darpa
+  - internet
 ---
 
 # Четыре узла ARPANET

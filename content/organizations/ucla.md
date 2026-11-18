@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "UCLA"
+schema: niti/v1
+kind: organization
+id: ucla
+title: UCLA
 aliases: []
-id: "ucla"
 ---
 
 # UCLA

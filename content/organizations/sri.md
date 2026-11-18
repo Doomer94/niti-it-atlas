@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "SRI"
+schema: niti/v1
+kind: organization
+id: sri
+title: SRI
 aliases: []
-id: "sri"
 ---
 
 # SRI

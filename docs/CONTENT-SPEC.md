@@ -18,7 +18,9 @@ content/
 
 ## Синтаксис Markdown
 
-Метаданные находятся между строками `---` в начале файла. Используется ограниченное подмножество YAML: ключ и JSON-значение на одной строке. Строки всегда в двойных кавычках, списки и объекты — в JSON-синтаксисе. Это даёт однозначное чтение без внешних библиотек. Многострочный YAML, комментарии внутри метаданных, anchors и произвольные YAML-теги не поддерживаются; сборщик отклоняет их.
+Метаданные находятся между строками `---` в начале файла. Используется обычный YAML 1.2: вложенные поля, списки с дефисами, комментарии, строки без кавычек и многострочный текст. Даты всегда заключайте в кавычки: `"1963"`, `"1989-03"`, `"1993-04-30"`. Иначе год может прочитаться как число. Дублирующие ключи, неизвестные поля и неизвестные YAML-теги приводят к ошибке. YAML anchors допустимы в пределах ограничения парсера, но для читаемости карточек лучше писать поля явно.
+
+Парсер `yaml` зафиксирован в каталоге `vendor/` вместе с лицензией и сведениями о версии. Он используется при локальной сборке или в CI, а в браузер не передаётся. Установка пакетов для сборки не нужна. Документация парсера: https://eemeli.org/yaml/.
 
 После метаданных идёт обычный Markdown. Он остаётся читаемым в текстовом редакторе и Git. В интерфейсе текст разделов выводится безопасно как текст, без исполнения HTML и без полноценного рендеринга Markdown. Ссылки на источники создаются из метаданных.
 
@@ -28,16 +30,24 @@ content/
 
 ```md
 ---
-schema: "niti/v1"
-kind: "event"
-id: "sketchpad"
-title: "Sketchpad"
-date: {"start":"1963","end":null,"precision":"year","basis":"publication"}
-topics: ["oop"]
-people: ["ivan-sutherland"]
-organizations: ["mit"]
-status: "draft"
-sources: ["kay"]
+schema: niti/v1
+kind: event
+id: sketchpad
+title: Sketchpad
+date:
+  start: "1963"
+  end: null
+  precision: year
+  basis: publication
+topics:
+  - oop
+people:
+  - ivan-sutherland
+organizations:
+  - mit
+status: draft
+sources:
+  - kay
 ---
 
 # Sketchpad
@@ -85,15 +95,17 @@ sources: ["kay"]
 
 ```md
 ---
-schema: "niti/v1"
-kind: "relation"
-id: "sketchpad--smalltalk"
-from: "sketchpad"
-to: "smalltalk"
-type: "idea"
-certainty: "supported"
-status: "draft"
-evidence: [{"source":"kay","locator":null}]
+schema: niti/v1
+kind: relation
+id: sketchpad--smalltalk
+from: sketchpad
+to: smalltalk
+type: idea
+certainty: supported
+status: draft
+evidence:
+  - source: kay
+    locator: null
 ---
 
 # Sketchpad → Smalltalk
@@ -115,11 +127,12 @@ evidence: [{"source":"kay","locator":null}]
 
 ```md
 ---
-schema: "niti/v1"
-kind: "person"
-id: "alan-kay"
-title: "Алан Кей"
-aliases: ["Alan Kay"]
+schema: niti/v1
+kind: person
+id: alan-kay
+title: Алан Кей
+aliases:
+  - Alan Kay
 ---
 
 # Алан Кей
@@ -133,13 +146,13 @@ aliases: ["Alan Kay"]
 
 ```md
 ---
-schema: "niti/v1"
-kind: "source"
-id: "kay"
-title: "Алан Кей · The Early History of Smalltalk, 1993"
-url: "https://doi.org/10.1145/155360.155364"
-source_type: "primary"
-language: "en"
+schema: niti/v1
+kind: source
+id: kay
+title: Алан Кей · The Early History of Smalltalk, 1993
+url: https://doi.org/10.1145/155360.155364
+source_type: primary
+language: en
 ---
 
 # Источник
@@ -153,10 +166,10 @@ language: "en"
 
 ```md
 ---
-schema: "niti/v1"
-kind: "topic"
-id: "oop"
-title: "Идеи и ООП"
+schema: niti/v1
+kind: topic
+id: oop
+title: Идеи и ООП
 color: "#b9ed88"
 ---
 ```
@@ -172,7 +185,9 @@ color: "#b9ed88"
 5. Запустите `node scripts/build.mjs`, затем `node --test tests/content.test.mjs`.
 6. Откройте `node scripts/serve.mjs` и проверьте карту по напечатанному адресу. Для размещения нужна отдельная публикация сайта; изменение Markdown само по себе не обновляет размещённую версию.
 
-Сборщик отклоняет дубликаты ID и полей, повреждённые ссылки, даты, неизвестную версию схемы, отсутствие обязательных разделов и источников, повторяющиеся связи и проверенные связи без локаторов. Никакая проверка схемы не устанавливает историческую достоверность автоматически.
+Сборщик отклоняет дубликаты ID и полей, неизвестные поля, повреждённые ссылки, даты, неизвестную версию схемы, отсутствие обязательных разделов и источников, повторяющиеся связи и проверенные связи без локаторов. Поля метаданных задаются схемой v1; расширенное описание храните в Markdown-тексте. Никакая проверка схемы не устанавливает историческую достоверность автоматически.
+
+Готовые заготовки каждого типа записи находятся в `templates/`. Правила исторической аргументации и рецензирования описаны в `docs/EDITORIAL-POLICY.md`; порядок изменений через Git — в `CONTRIBUTING.md`.
 
 ## Версии и переносимость
 

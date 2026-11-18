@@ -1,14 +1,24 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Первый транзистор"
-date: {"start":"1947","end":null,"precision":"year","basis":"event"}
-topics: ["chip"]
-people: ["john-bardeen","walter-brattain","william-shockley"]
-organizations: ["bell-labs"]
-status: "draft"
-sources: ["silicon"]
-id: "transistor"
+schema: niti/v1
+kind: event
+id: transistor
+title: Первый транзистор
+date:
+  start: "1947"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - chip
+people:
+  - john-bardeen
+  - walter-brattain
+  - william-shockley
+organizations:
+  - bell-labs
+status: draft
+sources:
+  - silicon
 ---
 
 # Первый транзистор

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Кларенс Фельдман"
+schema: niti/v1
+kind: person
+id: clarence-feldmann
+title: Кларенс Фельдман
 aliases: []
-id: "clarence-feldmann"
 ---
 
 # Кларенс Фельдман

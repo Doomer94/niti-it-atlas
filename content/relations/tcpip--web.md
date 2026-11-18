@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "tcpip"
-to: "web"
-type: "tech"
-certainty: "interpretation"
-status: "draft"
-evidence: [{"source":"cern","locator":null}]
-id: "tcpip--web"
+schema: niti/v1
+kind: relation
+id: tcpip--web
+from: tcpip
+to: web
+type: tech
+certainty: interpretation
+status: draft
+evidence:
+  - source: cern
+    locator: null
 ---
 
 # tcpip → web

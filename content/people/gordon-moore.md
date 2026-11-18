@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Гордон Мур"
+schema: niti/v1
+kind: person
+id: gordon-moore
+title: Гордон Мур
 aliases: []
-id: "gordon-moore"
 ---
 
 # Гордон Мур

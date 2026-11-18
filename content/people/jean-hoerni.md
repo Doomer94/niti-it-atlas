@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Жан Эрни"
+schema: niti/v1
+kind: person
+id: jean-hoerni
+title: Жан Эрни
 aliases: []
-id: "jean-hoerni"
 ---
 
 # Жан Эрни

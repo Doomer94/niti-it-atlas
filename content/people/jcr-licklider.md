@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Джозеф Ликлайдер"
+schema: niti/v1
+kind: person
+id: jcr-licklider
+title: Джозеф Ликлайдер
 aliases: []
-id: "jcr-licklider"
 ---
 
 # Джозеф Ликлайдер

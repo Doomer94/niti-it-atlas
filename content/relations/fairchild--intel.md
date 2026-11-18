@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "fairchild"
-to: "intel"
-type: "people"
-certainty: "supported"
-status: "draft"
-evidence: [{"source":"intel","locator":null}]
-id: "fairchild--intel"
+schema: niti/v1
+kind: relation
+id: fairchild--intel
+from: fairchild
+to: intel
+type: people
+certainty: supported
+status: draft
+evidence:
+  - source: intel
+    locator: null
 ---
 
 # fairchild → intel

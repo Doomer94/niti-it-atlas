@@ -1,13 +1,169 @@
 {
   "schema": "niti/export-v1",
   "SOURCES": {
+    "algol-standards-archive": [
+      "CHM Software Preservation Group · История стандартов ALGOL",
+      "https://softwarepreservation.computerhistory.org/ALGOL/standards.html"
+    ],
+    "algol60-report": [
+      "Петер Наур и комитет · Report on the Algorithmic Language ALGOL 60",
+      "https://doi.org/10.1145/367236.367262"
+    ],
+    "amd-am386-annual": [
+      "AMD · Годовой отчёт, материалы 1994 · Am386",
+      "https://ir.amd.com/financial-information/sec-filings/content/0000891618-94-000068/EX-13.txt"
+    ],
+    "amd-athlon-annual": [
+      "AMD · Отчёт 1999 · Form 10-K405",
+      "https://ir.amd.com/financial-information/sec-filings/content/0001012870-00-001494/10-K405.txt"
+    ],
+    "amd-athlon-ghz-release": [
+      "AMD · Поставки Athlon 1 ГГц · 6 марта 2000",
+      "https://www.cpushack.com/CIC/announce/2000/k7.1000.html"
+    ],
+    "amd-athlon64-annual": [
+      "AMD · Годовой отчёт 2004 · Athlon 64",
+      "https://ir.amd.com/financial-information/sec-filings/content/0001193125-05-039876/0001193125-05-039876.pdf"
+    ],
+    "amd-ati-annual": [
+      "AMD · Form 10-K 2006 · приобретение ATI",
+      "https://ir.amd.com/financial-information/sec-filings/content/0001193125-07-044191/d10k.htm"
+    ],
+    "amd-ati-closing": [
+      "AMD · 8-K · завершение покупки ATI",
+      "https://ir.amd.com/financial-information/sec-filings/content/0001193125-06-217735/d8k.htm"
+    ],
+    "amd-corporate-faq": [
+      "AMD · Investor Relations FAQ",
+      "https://ir.amd.com/contacts-faq/faq"
+    ],
+    "amd-dirk-meyer-bio": [
+      "AMD · Dirk Meyer Appointed to Board of Directors",
+      "https://ir.amd.com/news-events/press-releases/detail/267/amd-appoints-dirk-meyer-to-board-of-directors"
+    ],
+    "amd-intel-arbitration": [
+      "Advanced Micro Devices v. Intel · Верховный суд Калифорнии · 1994",
+      "https://law.justia.com/cases/california/supreme-court/4th/9/362.html"
+    ],
+    "amd-intel-settlement-2009": [
+      "Intel и AMD · Совместное заявление о мировом соглашении",
+      "https://www.intel.com/pressroom/archive/releases/2009/20091112corp_a.htm?lang=en"
+    ],
+    "amd-k6-results": [
+      "AMD · Результаты II квартала 1997",
+      "https://ir.amd.com/financial-information/sec-filings/content/0000929624-97-000885/EX-99.txt"
+    ],
+    "amd-keller-appointment": [
+      "AMD · Jim Keller Joins AMD · 1 августа 2012",
+      "https://ir.amd.com/news-events/press-releases/detail/240/computer-architect-jim-keller-joins-amd-as-chief-of-processor-group"
+    ],
+    "amd-lisa-su-appointment": [
+      "AMD · Назначение Лизы Су руководителем Global Business Units",
+      "https://ir.amd.com/news-events/press-releases/detail/200/amd-to-appoint-dr-lisa-su-as-senior-vice-president-and-general-manager-global-business-units"
+    ],
+    "amd-lisa-su-ceo": [
+      "AMD · Lisa Su Appointed President and CEO · 8 октября 2014",
+      "https://ir.amd.com/news-events/press-releases/detail/568/amd-appoints-dr-lisa-su-as-president-and-chief-executive-officer"
+    ],
+    "amd-nexgen-prospectus": [
+      "AMD · Проспект 1996 · приобретение NexGen",
+      "https://ir.amd.com/financial-information/sec-filings/content/0000950109-96-005024/424B5.txt"
+    ],
+    "amd-ryzen7-release": [
+      "AMD · Worldwide Ryzen 7 Availability March 2 · 2017",
+      "https://ir.amd.com/news-events/press-releases/detail/750/innovation-and-competition-return-to-high-performance-pcs-march-2nd-with-worldwide-amd-ryzen-7-availability"
+    ],
+    "amd-zen3-launch": [
+      "AMD · Анонс Ryzen 5000 и Zen 3 · 8 октября 2020",
+      "https://ir.amd.com/news-events/press-releases/detail/972/amd-launches-amd-ryzen-5000-series-desktop-processors-the-fastest-gaming-cpus-in-the-world"
+    ],
+    "atlas-supervisor-history": [
+      "University of Manchester · Atlas и Tom Kilburn",
+      "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/kilburn.html"
+    ],
     "cern": [
       "CERN · Рождение Всемирной паутины",
       "https://home.cern/science/computing/the-birth-of-the-web"
     ],
+    "chm-apple-history": [
+      "CHM · Apple Computer, Inc. · Selling the Computer Revolution",
+      "https://www.computerhistory.org/brochures/a-c/"
+    ],
+    "chm-dos-history": [
+      "CHM · Microsoft MS-DOS Early Source Code",
+      "https://computerhistory.org/blog/microsoft-ms-dos-early-source-code/"
+    ],
+    "chm-fairchild-sixty": [
+      "CHM · Fairchild Semiconductor: The 60th Anniversary",
+      "https://computerhistory.org/blog/fairchild-semiconductor-the-60th-anniversary-of-a-silicon-valley-legend/"
+    ],
+    "chm-fairchildren": [
+      "CHM · Fairchildren",
+      "https://computerhistory.org/fairchildren/"
+    ],
+    "chm-shockley-valley": [
+      "CHM · Silicon Comes to Silicon Valley",
+      "https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/"
+    ],
+    "corbato-oral-history": [
+      "Фернандо Корбато · Oral History · CHM, 2006",
+      "https://archive.computerhistory.org/resources/text/Oral_History/Corbato_Fernando/Corbato_Fernando_1.oral_history.2006.102658041.pdf"
+    ],
+    "cpi-electronics-history": [
+      "Communications & Power Industries · History",
+      "https://www.cpii.com/history/"
+    ],
     "darpa": [
       "DARPA · ARPANET",
       "https://www.darpa.mil/news/features/arpanet"
+    ],
+    "dartmouth-basic-history": [
+      "Dartmouth · BASIC at Dartmouth",
+      "https://www.dartmouth.edu/basicfifty/basic.html"
+    ],
+    "deforest-1958-recording": [
+      "Lee de Forest · запись выступления 1958 · IIT Archives",
+      "https://findingaids.archives.iit.edu/repositories/2/resources/857"
+    ],
+    "freebsd-10-announcement": [
+      "FreeBSD · Объявление версии 1.0 · 1 ноября 1993",
+      "https://www.freebsd.org/releases/1.0/announce/"
+    ],
+    "freebsd-handbook-history": [
+      "FreeBSD Handbook · История проекта",
+      "https://docs.freebsd.org/en/books/handbook/introduction/"
+    ],
+    "gf-corporate-faq": [
+      "GlobalFoundries · Investor Relations FAQ",
+      "https://investors.gf.com/investor-relations/ir-resources/faqs"
+    ],
+    "gnu-initial-announcement": [
+      "Ричард Столлман · Initial GNU Announcement · 27 сентября 1983",
+      "https://www.gnu.org/gnu/initial-announcement.html"
+    ],
+    "gosling-java-testimony": [
+      "Джеймс Гослинг · Свидетельство об истории Java",
+      "https://www.justice.gov/atr/statement-dr-james-gosling-us-v-microsoft-corp-and-state-new-york-ex-rel-v-microsoft-corp"
+    ],
+    "hoare-record-handling-1966": [
+      "Чарльз Энтони Ричард Хоар · Record Handling · лекции 1966",
+      "https://prog.vub.ac.be/~tjdhondt/ESL/Simula_to_Smalltalk_files/Record-Handling-Hoare.pdf"
+    ],
+    "homebrew-newsletter-1976": [
+      "Homebrew Computer Club Newsletter · 31 марта 1976",
+      "https://bitsavers.computerhistory.org/pdf/homebrewCC/HCC_Newsletter_V2_N03.pdf"
+    ],
+    "hp-1930s-history": [
+      "Hewlett-Packard · Хронология 1930-х",
+      "https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_30s.html"
+    ],
+    "ibm-fortran-history": [
+      "IBM · История Fortran",
+      "https://www.ibm.com/history/fortran"
+    ],
+    "ieee-wesling-talk": [
+      "IEEE · The Origins of Silicon Valley · анонс Пола Уэслинга",
+      "https://events.vtools.ieee.org/m/196683"
     ],
     "intel": [
       "Intel · История основания",
@@ -17,23 +173,179 @@
       "Internet Society · История Интернета, рассказанная участниками",
       "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
     ],
+    "javascript-hopliv-history": [
+      "Аллен Вирфс-Брок и Брендан Айк · JavaScript: The First 20 Years",
+      "https://www.wirfs-brock.com/allen/jshopl.pdf"
+    ],
     "kay": [
       "Алан Кей · The Early History of Smalltalk, 1993",
       "https://doi.org/10.1145/155360.155364"
+    ],
+    "kildall-cpm-history": [
+      "CHM · Early Digital Research CP/M Source Code",
+      "https://computerhistory.org/blog/early-digital-research-cpm-source-code/"
+    ],
+    "linux-001-notes": [
+      "Линус Торвальдс · Notes for Linux Release 0.01",
+      "https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.01"
+    ],
+    "linux-012-notes": [
+      "Линус Торвальдс · Release Notes for Linux v0.12",
+      "https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12"
+    ],
+    "macintosh-first-release": [
+      "Apple · Первый пресс-релиз Macintosh · 24 января 1984",
+      "https://www-leland.stanford.edu/dept/SUL/sites/mac/primary/docs/pr1.html"
+    ],
+    "mccarthy-lisp-history": [
+      "Джон Маккарти · History of Lisp",
+      "https://www-formal.stanford.edu/jmc/lisp/lisp.html"
+    ],
+    "mckusick-berkeley-history": [
+      "Маршалл Кирк Маккьюсик · Twenty Years of Berkeley Unix",
+      "https://www.oreilly.com/openbook/opensources/book/kirkmck.html_original"
+    ],
+    "microsoft-dos-preservation": [
+      "Microsoft · Continuing the Story of Early DOS Development · 2026",
+      "https://opensource.microsoft.com/blog/2026/04/28/continuing-the-story-of-early-dos-development/"
+    ],
+    "microsoft-nt-cutler-history": [
+      "Microsoft · История Дейва Катлера и Windows NT",
+      "https://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality/"
+    ],
+    "ml-hopliv-history": [
+      "Маккуин, Харпер, Реппи · The History of Standard ML",
+      "https://www.cs.cmu.edu/~rwh/papers/history/main.pdf"
+    ],
+    "multics-first-seven-years": [
+      "Корбато, Солтцер, Клинген · Multics: The First Seven Years",
+      "https://multicians.org/f7y.html"
+    ],
+    "muratori-big-oops-2025": [
+      "Кейси Муратори · The Big OOPs · BSC 2025",
+      "https://www.youtube.com/watch?v=wo84LFzx5nI"
+    ],
+    "muratori-big-oops-notes-2025": [
+      "Кейси Муратори · Пояснения и список чтения · 17 июля 2025",
+      "https://www.computerenhance.com/p/the-big-oops-anatomy-of-a-thirty"
+    ],
+    "oracle-java-timeline": [
+      "Oracle · A Brief History of Java",
+      "https://education.oracle.com/file/general/4955_BriefHistoryOfJava_7.pdf"
+    ],
+    "os360-introduction-1966": [
+      "IBM · System/360 Operating System: Introduction · ноябрь 1966",
+      "https://bitsavers.computerhistory.org/pdf/ibm/360/os/R01-08/C28-6534-1_OS_Intro_Nov66.pdf"
     ],
     "plex": [
       "Дуглас Росс и Кларенс Фельдман · Отчёт об AED, 1964",
       "https://doi.org/10.1145/800265.810743"
     ],
+    "prohitech-amd-history": [
+      "Pro Hi-Tech · Все успехи и провалы AMD",
+      "https://www.youtube.com/watch?v=YRvGX_Wziqw"
+    ],
+    "prolog-historical-archive": [
+      "CHM Software Preservation Group · Prolog Historical Sources",
+      "https://softwarepreservation.computerhistory.org/prolog/"
+    ],
+    "python-early-days": [
+      "Гвидо ван Россум · Python’s Early Days",
+      "https://legacy.python.org/doc/essays/ppt/jpf001/tsld006.htm"
+    ],
+    "python-general-faq": [
+      "Python · General FAQ: Why Was Python Created?",
+      "https://docs.python.org/3/faq/general.html#why-was-python-created-in-the-first-place"
+    ],
+    "richards-bcpl-history": [
+      "Мартин Ричардс · How BCPL Evolved from CPL",
+      "https://www.cl.cam.ac.uk/~mr10/cpl2bcpl.pdf"
+    ],
+    "ritchie-c-history": [
+      "Деннис Ритчи · The Development of the C Language",
+      "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html"
+    ],
+    "ritchie-unix-evolution": [
+      "Деннис Ритчи · The Evolution of the Unix Time-sharing System",
+      "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html"
+    ],
+    "ross-plex-1961": [
+      "Дуглас Росс · A Generalized Technique… · 1961",
+      "https://doi.org/10.1145/366199.366256"
+    ],
+    "scheme-1975-report": [
+      "Сассман и Стил · Scheme: An Interpreter for Extended Lambda Calculus",
+      "https://research.scheme.org/lambda-papers/lambda-papers-scheme-report.html"
+    ],
     "silicon": [
       "Computer History Museum · The Silicon Engine",
       "https://www.computerhistory.org/siliconengine/timeline/"
+    ],
+    "simula-history-1978": [
+      "Кристен Нюгор и Оле-Йохан Даль · The Development of the SIMULA Languages · 1978",
+      "https://www.cs.tufts.edu/comp/150FP/archive/kristen-nygaard/hopl-simula.pdf"
+    ],
+    "sketchpad-1963": [
+      "Айвен Сазерленд · Sketchpad · диссертация 1963",
+      "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf"
+    ],
+    "sketchpad-preface-2003": [
+      "Алан Блэкуэлл и Керри Родден · Предисловие к Sketchpad · 2003",
+      "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf"
+    ],
+    "smithsonian-cobol-draft": [
+      "Smithsonian · First Draft of the Programming Language COBOL",
+      "https://www.si.edu/object/first-draft-programming-language-cobol%3Anmah_1389377"
+    ],
+    "stanford-early-electronics": [
+      "Stanford Magazine · Thinker, Maker, Coder: Try",
+      "https://stanfordmag.org/contents/thinker-maker-coder-try"
+    ],
+    "stanford-ginzton-history": [
+      "Stanford · Ginzton Laboratory: History",
+      "https://ginzton.stanford.edu/about-lab/history"
+    ],
+    "stanford-park-history": [
+      "Stanford Report · Research Park marks 75 years",
+      "https://news.stanford.edu/stories/2026/10/stanford-research-park-75-year-anniversary"
+    ],
+    "stanford-park-milestones": [
+      "Stanford Archives · University milestones",
+      "https://guides.library.stanford.edu/c.php?g=1311993&p=9846400"
+    ],
+    "stroustrup-faq": [
+      "Бьёрн Страуструп · FAQ · История C++",
+      "https://www.stroustrup.com/bs_faq.html"
+    ],
+    "stroustrup-history": [
+      "Бьёрн Страуструп · A History of C++: 1979–1991",
+      "https://www.stroustrup.com/hopl2.pdf"
+    ],
+    "thief-postmortem-1999": [
+      "Том Леонард · Postmortem: Thief: The Dark Project · 1999",
+      "https://www.gamedeveloper.com/design/postmortem-i-thief-the-dark-project-i-"
+    ],
+    "wesling-valley-origins": [
+      "Пол Уэслинг · The Origins of Silicon Valley: Why and How It Happened · Stanford",
+      "https://www.youtube.com/watch?v=lRDB_W6POys"
+    ],
+    "wirth-pascal-1970": [
+      "Никлаус Вирт · The Programming Language Pascal · 1970",
+      "https://www.research-collection.ethz.ch/items/514c7df1-8a1c-46c3-af34-2b7938131aeb"
+    ],
+    "wirth-projects-history": [
+      "Никлаус Вирт · Summary of Projects, 1962–1999",
+      "https://people.inf.ethz.ch/wirth/projects.html"
     ]
   },
   "TOPICS": {
     "chip": {
       "name": "Кремниевая долина",
       "color": "#c5b1f1"
+    },
+    "lang": {
+      "name": "Языки программирования",
+      "color": "#eda9be"
     },
     "net": {
       "name": "Сети и Интернет",
@@ -42,6 +354,10 @@
     "oop": {
       "name": "Идеи и ООП",
       "color": "#b9ed88"
+    },
+    "os": {
+      "name": "Операционные системы",
+      "color": "#90c9ed"
     }
   },
   "ENTITIES": {
@@ -52,11 +368,51 @@
         "aliases": [],
         "body": "# Адель Голдберг\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "alain-colmerauer": {
+        "id": "alain-colmerauer",
+        "title": "Ален Колмероэ",
+        "aliases": [
+          "Alain Colmerauer"
+        ],
+        "body": "# Ален Колмероэ\n\nУчастник создания Prolog в Марселе.\n\nОснование: [CHM Software Preservation Group · Prolog Historical Sources](https://softwarepreservation.computerhistory.org/prolog/)."
+      },
       "alan-kay": {
         "id": "alan-kay",
         "title": "Алан Кей",
         "aliases": [],
         "body": "# Алан Кей\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "arnold-beckman": {
+        "id": "arnold-beckman",
+        "title": "Арнольд Бекман",
+        "aliases": [
+          "Arnold Beckman"
+        ],
+        "body": "# Арнольд Бекман\n\nПоддержал создание полупроводниковой лаборатории Шокли как подразделения Beckman Instruments.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
+      },
+      "arthur-rock": {
+        "id": "arthur-rock",
+        "title": "Артур Рок",
+        "aliases": [
+          "Arthur Rock"
+        ],
+        "body": "# Артур Рок\n\nУчаствовал в поиске финансирования для команды будущей Fairchild. Его роль не означает, что все последующие компании финансировались одним инвестором.\n\nОснование: [CHM · Fairchild Semiconductor: The 60th Anniversary](https://computerhistory.org/blog/fairchild-semiconductor-the-60th-anniversary-of-a-silicon-valley-legend/)."
+      },
+      "bill-joy": {
+        "id": "bill-joy",
+        "title": "Билл Джой",
+        "aliases": [
+          "Bill Joy"
+        ],
+        "body": "# Билл Джой\n\nУчастник разработки Berkeley Unix; собрал первую Berkeley Software Distribution.\n\nОснование: [Маршалл Кирк Маккьюсик · Twenty Years of Berkeley Unix](https://www.oreilly.com/openbook/opensources/book/kirkmck.html_original)."
+      },
+      "bjarne-stroustrup": {
+        "id": "bjarne-stroustrup",
+        "title": "Бьёрн Страуструп",
+        "aliases": [
+          "Bjarne Stroustrup"
+        ],
+        "body": "# Бьёрн Страуструп\n\nСоздатель C with Classes и C++. Описывает переход от опыта Simula к проектированию нового языка в A History of C++: 1979–1991, разделы 2–3."
       },
       "bob-kahn": {
         "id": "bob-kahn",
@@ -64,11 +420,37 @@
         "aliases": [],
         "body": "# Боб Кан\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "brendan-eich": {
+        "id": "brendan-eich",
+        "title": "Брендан Айк",
+        "aliases": [
+          "Brendan Eich"
+        ],
+        "body": "# Брендан Айк\n\nАвтор раннего JavaScript в Netscape; последующий язык развивался многими участниками.\n\nОснование: [Аллен Вирфс-Брок и Брендан Айк · JavaScript: The First 20 Years](https://www.wirfs-brock.com/allen/jshopl.pdf)."
+      },
+      "charles-litton": {
+        "id": "charles-litton",
+        "title": "Чарльз Литтон",
+        "aliases": [
+          "Charles Litton",
+          "Charlie Litton"
+        ],
+        "body": "# Чарльз Литтон\n\nРазработчик оборудования для производства электронных ламп; в лекции описан как участник обмена технологическим опытом между местными фирмами.\n\nОснование: [Пол Уэслинг · The Origins of Silicon Valley: Why and How It Happened · Stanford](https://www.youtube.com/watch?v=lRDB_W6POys)."
+      },
       "clarence-feldmann": {
         "id": "clarence-feldmann",
         "title": "Кларенс Фельдман",
         "aliases": [],
         "body": "# Кларенс Фельдман\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "cyril-elwell": {
+        "id": "cyril-elwell",
+        "title": "Сирил Элвелл",
+        "aliases": [
+          "Cyril Elwell",
+          "Cyril Frank Elwell"
+        ],
+        "body": "# Сирил Элвелл\n\nВыпускник Stanford, в 1909 основал беспроводную компанию, известную позднее как Federal Telegraph.\n\nОснование: [Stanford Magazine · Thinker, Maker, Coder: Try](https://stanfordmag.org/contents/thinker-maker-coder-try)."
       },
       "dan-ingalls": {
         "id": "dan-ingalls",
@@ -76,11 +458,71 @@
         "aliases": [],
         "body": "# Дэн Ингаллс\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "dave-cutler": {
+        "id": "dave-cutler",
+        "title": "Дейв Катлер",
+        "aliases": [
+          "Dave Cutler",
+          "David Cutler"
+        ],
+        "body": "# Дейв Катлер\n\nРазработчик систем в DEC, затем руководитель инженерной работы над Windows NT в Microsoft.\n\nОснование: [Microsoft · История Дейва Катлера и Windows NT](https://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality/)."
+      },
+      "david-howarth": {
+        "id": "david-howarth",
+        "title": "Дэвид Хауарт",
+        "aliases": [
+          "David Howarth",
+          "David J. Howarth"
+        ],
+        "body": "# Дэвид Хауарт\n\nВ Ferranti руководил разработкой Atlas Supervisor.\n\nОснование: [University of Manchester · Atlas и Tom Kilburn](https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/kilburn.html)."
+      },
+      "david-packard": {
+        "id": "david-packard",
+        "title": "Дэвид Паккард",
+        "aliases": [
+          "David Packard",
+          "Dave Packard"
+        ],
+        "body": "# Дэвид Паккард\n\nСооснователь Hewlett-Packard. Партнёрство создано в 1939, юридическое преобразование компании — другой этап.\n\nОснование: [Hewlett-Packard · Хронология 1930-х](https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_30s.html)."
+      },
+      "david-starr-jordan": {
+        "id": "david-starr-jordan",
+        "title": "Дэвид Старр Джордан",
+        "aliases": [
+          "David Starr Jordan"
+        ],
+        "body": "# Дэвид Старр Джордан\n\nПрезидент Stanford и один из ранних частных сторонников предприятия Элвелла в пересказе лекции. Эта запись не оценивает остальные стороны его биографии.\n\nОснование: [Пол Уэслинг · The Origins of Silicon Valley: Why and How It Happened · Stanford](https://www.youtube.com/watch?v=lRDB_W6POys)."
+      },
+      "dennis-ritchie": {
+        "id": "dennis-ritchie",
+        "title": "Деннис Ритчи",
+        "aliases": [
+          "Dennis Ritchie"
+        ],
+        "body": "# Деннис Ритчи\n\nСоавтор Unix и разработчик C; описал раннюю историю системы и её переписывание на C.\n\nОснование: [Деннис Ритчи · The Evolution of the Unix Time-sharing System](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html)."
+      },
+      "dirk-meyer": {
+        "id": "dirk-meyer",
+        "title": "Дирк Мейер",
+        "aliases": [
+          "Dirk Meyer"
+        ],
+        "body": "# Дирк Мейер\n\nИнженер с опытом DEC и Alpha; в AMD руководил командой разработки Athlon.\n\nОснование: [AMD · Dirk Meyer Appointed to Board of Directors](https://ir.amd.com/news-events/press-releases/detail/267/amd-appoints-dirk-meyer-to-board-of-directors)."
+      },
       "douglas-ross": {
         "id": "douglas-ross",
         "title": "Дуглас Росс",
         "aliases": [],
         "body": "# Дуглас Росс\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "eugene-kleiner": {
+        "id": "eugene-kleiner",
+        "title": "Юджин Кляйнер",
+        "aliases": [
+          "Eugene Kleiner",
+          "Gene Kleiner"
+        ],
+        "body": "# Юджин Кляйнер\n\nОдин из восьми сооснователей Fairchild Semiconductor.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
       },
       "federico-faggin": {
         "id": "federico-faggin",
@@ -88,17 +530,108 @@
         "aliases": [],
         "body": "# Федерико Фаджин\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "fernando-corbato": {
+        "id": "fernando-corbato",
+        "title": "Фернандо Корбато",
+        "aliases": [
+          "Fernando Corbató",
+          "Corby"
+        ],
+        "body": "# Фернандо Корбато\n\nРуководил работой над CTSS и участвовал в создании Multics.\n\nОснование: [Фернандо Корбато · Oral History · CHM, 2006](https://archive.computerhistory.org/resources/text/Oral_History/Corbato_Fernando/Corbato_Fernando_1.oral_history.2006.102658041.pdf)."
+      },
+      "fred-moore": {
+        "id": "fred-moore",
+        "title": "Фред Мур",
+        "aliases": [
+          "Fred Moore"
+        ],
+        "body": "# Фред Мур\n\nСоорганизатор Homebrew Computer Club; это другой человек, чем сооснователь Intel Гордон Мур.\n\nОснование: [Homebrew Computer Club Newsletter · 31 марта 1976](https://bitsavers.computerhistory.org/pdf/homebrewCC/HCC_Newsletter_V2_N03.pdf)."
+      },
+      "frederick-terman": {
+        "id": "frederick-terman",
+        "title": "Фредерик Терман",
+        "aliases": [
+          "Frederick Terman",
+          "Fred Terman"
+        ],
+        "body": "# Фредерик Терман\n\nПреподаватель и руководитель Stanford, поддерживал Хьюлетта и Паккарда и развитие связей университета с промышленностью.\n\nОснование: [Hewlett-Packard · Хронология 1930-х](https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_30s.html)."
+      },
+      "gary-kildall": {
+        "id": "gary-kildall",
+        "title": "Гэри Килдалл",
+        "aliases": [
+          "Gary Kildall"
+        ],
+        "body": "# Гэри Килдалл\n\nСоздатель CP/M.\n\nОснование: [CHM · Early Digital Research CP/M Source Code](https://computerhistory.org/blog/early-digital-research-cpm-source-code/)."
+      },
+      "gerald-sussman": {
+        "id": "gerald-sussman",
+        "title": "Джеральд Джей Сассман",
+        "aliases": [
+          "Gerald Jay Sussman"
+        ],
+        "body": "# Джеральд Джей Сассман\n\nСоавтор первого отчёта Scheme.\n\nОснование: [Сассман и Стил · Scheme: An Interpreter for Extended Lambda Calculus](https://research.scheme.org/lambda-papers/lambda-papers-scheme-report.html)."
+      },
+      "gordon-french": {
+        "id": "gordon-french",
+        "title": "Гордон Френч",
+        "aliases": [
+          "Gordon French"
+        ],
+        "body": "# Гордон Френч\n\nОдин из организаторов первой встречи Homebrew Computer Club в 1975.\n\nОснование: [Homebrew Computer Club Newsletter · 31 марта 1976](https://bitsavers.computerhistory.org/pdf/homebrewCC/HCC_Newsletter_V2_N03.pdf)."
+      },
       "gordon-moore": {
         "id": "gordon-moore",
         "title": "Гордон Мур",
         "aliases": [],
         "body": "# Гордон Мур\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "guido-van-rossum": {
+        "id": "guido-van-rossum",
+        "title": "Гвидо ван Россум",
+        "aliases": [
+          "Guido van Rossum"
+        ],
+        "body": "# Гвидо ван Россум\n\nСоздатель Python; ранняя работа связана с CWI и опытом языка ABC.\n\nОснование: [Python · General FAQ: Why Was Python Created?](https://docs.python.org/3/faq/general.html#why-was-python-created-in-the-first-place)."
+      },
+      "guy-steele": {
+        "id": "guy-steele",
+        "title": "Гай Стил",
+        "aliases": [
+          "Guy L. Steele Jr.",
+          "Guy Lewis Steele Jr."
+        ],
+        "body": "# Гай Стил\n\nСоавтор Scheme и его первых отчётов.\n\nОснование: [Сассман и Стил · Scheme: An Interpreter for Extended Lambda Calculus](https://research.scheme.org/lambda-papers/lambda-papers-scheme-report.html)."
+      },
       "ivan-sutherland": {
         "id": "ivan-sutherland",
         "title": "Айвен Сазерленд",
         "aliases": [],
         "body": "# Айвен Сазерленд\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "jack-mccullough": {
+        "id": "jack-mccullough",
+        "title": "Джек Маккалоу",
+        "aliases": [
+          "Jack McCullough"
+        ],
+        "body": "# Джек Маккалоу\n\nСооснователь Eitel-McCullough (Eimac).\n\nОснование: [Communications & Power Industries · History](https://www.cpii.com/history/)."
+      },
+      "james-gosling": {
+        "id": "james-gosling",
+        "title": "Джеймс Гослинг",
+        "aliases": [
+          "James Gosling"
+        ],
+        "body": "# Джеймс Гослинг\n\nРуководил разработкой Java в Sun; коллективный проект не сводится к работе одного человека.\n\nОснование: [Джеймс Гослинг · Свидетельство об истории Java](https://www.justice.gov/atr/statement-dr-james-gosling-us-v-microsoft-corp-and-state-new-york-ex-rel-v-microsoft-corp)."
+      },
+      "jay-last": {
+        "id": "jay-last",
+        "title": "Джей Ласт",
+        "aliases": [
+          "Jay Last"
+        ],
+        "body": "# Джей Ласт\n\nОдин из восьми сооснователей Fairchild Semiconductor.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
       },
       "jcr-licklider": {
         "id": "jcr-licklider",
@@ -112,11 +645,69 @@
         "aliases": [],
         "body": "# Жан Эрни\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "jerry-sanders": {
+        "id": "jerry-sanders",
+        "title": "Джерри Сандерс",
+        "aliases": [
+          "Jerry Sanders",
+          "Walter Jeremiah Sanders III"
+        ],
+        "body": "# Джерри Сандерс\n\nСооснователь и многолетний руководитель AMD, ранее работавший в Fairchild.\n\nОснование: [CHM · Fairchildren](https://computerhistory.org/fairchildren/)."
+      },
+      "jim-keller": {
+        "id": "jim-keller",
+        "title": "Джим Келлер",
+        "aliases": [
+          "Jim Keller"
+        ],
+        "body": "# Джим Келлер\n\nПроцессорный архитектор, работавший в DEC, AMD, Apple и других компаниях; вернулся в AMD в августе 2012. Участие в проекте не означает единоличного авторства.\n\nОснование: [AMD · Jim Keller Joins AMD · 1 августа 2012](https://ir.amd.com/news-events/press-releases/detail/240/computer-architect-jim-keller-joins-amd-as-chief-of-processor-group)."
+      },
+      "john-backus": {
+        "id": "john-backus",
+        "title": "Джон Бэкус",
+        "aliases": [
+          "John Backus"
+        ],
+        "body": "# Джон Бэкус\n\nРуководитель команды разработки раннего Fortran в IBM.\n\nОснование: [IBM · История Fortran](https://www.ibm.com/history/fortran)."
+      },
       "john-bardeen": {
         "id": "john-bardeen",
         "title": "Джон Бардин",
         "aliases": [],
         "body": "# Джон Бардин\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "john-kemeny": {
+        "id": "john-kemeny",
+        "title": "Джон Кемени",
+        "aliases": [
+          "John Kemeny",
+          "John G. Kemeny"
+        ],
+        "body": "# Джон Кемени\n\nСовместно с Томасом Курцем и студентами участвовал в создании BASIC в Dartmouth.\n\nОснование: [Dartmouth · BASIC at Dartmouth](https://www.dartmouth.edu/basicfifty/basic.html)."
+      },
+      "john-mccarthy": {
+        "id": "john-mccarthy",
+        "title": "Джон Маккарти",
+        "aliases": [
+          "John McCarthy"
+        ],
+        "body": "# Джон Маккарти\n\nАвтор основных ранних идей Lisp; реализация создавалась коллективом.\n\nОснование: [Джон Маккарти · History of Lisp](https://www-formal.stanford.edu/jmc/lisp/lisp.html)."
+      },
+      "julius-blank": {
+        "id": "julius-blank",
+        "title": "Джулиус Бланк",
+        "aliases": [
+          "Julius Blank"
+        ],
+        "body": "# Джулиус Бланк\n\nОдин из восьми сотрудников лаборатории Шокли, основавших Fairchild Semiconductor.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
+      },
+      "ken-thompson": {
+        "id": "ken-thompson",
+        "title": "Кен Томпсон",
+        "aliases": [
+          "Ken Thompson"
+        ],
+        "body": "# Кен Томпсон\n\nОдин из создателей Unix; ранняя реализация на PDP-7 связана с его работой.\n\nОснование: [Деннис Ритчи · The Evolution of the Unix Time-sharing System](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html)."
       },
       "kristen-nygaard": {
         "id": "kristen-nygaard",
@@ -130,11 +721,60 @@
         "aliases": [],
         "body": "# Ларри Робертс\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "lee-de-forest": {
+        "id": "lee-de-forest",
+        "title": "Ли де Форест",
+        "aliases": [
+          "Lee de Forest"
+        ],
+        "body": "# Ли де Форест\n\nРаботал над усилительной электронной лампой в Federal Telegraph; собственные воспоминания относят эту работу к 1912.\n\nОснование: [Lee de Forest · запись выступления 1958 · IIT Archives](https://findingaids.archives.iit.edu/repositories/2/resources/857)."
+      },
+      "linus-torvalds": {
+        "id": "linus-torvalds",
+        "title": "Линус Торвальдс",
+        "aliases": [
+          "Linus Torvalds"
+        ],
+        "body": "# Линус Торвальдс\n\nАвтор первоначального ядра Linux; развитие системы позднее стало коллективной работой.\n\nОснование: [Линус Торвальдс · Notes for Linux Release 0.01](https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.01)."
+      },
+      "lisa-su": {
+        "id": "lisa-su",
+        "title": "Лиза Су",
+        "aliases": [
+          "Lisa Su"
+        ],
+        "body": "# Лиза Су\n\nИнженер и руководитель; перешла в AMD в январе 2012, назначена президентом и CEO в октябре 2014. Это исторические назначения, не автоматически обновляемая текущая должность.\n\nОснование: [AMD · Lisa Su Appointed President and CEO · 8 октября 2014](https://ir.amd.com/news-events/press-releases/detail/568/amd-appoints-dr-lisa-su-as-president-and-chief-executive-officer)."
+      },
+      "marc-leblanc": {
+        "id": "marc-leblanc",
+        "title": "Марк Леблан",
+        "aliases": [
+          "Marc LeBlanc",
+          "Mahk LeBlanc"
+        ],
+        "body": "# Марк Леблан\n\nТом Леонард в Postmortem: Thief: The Dark Project (1999) называет его основным проектировщиком Dark Object System. Распределение идей и реализации между участниками требует сохранения контекста источников."
+      },
+      "martin-richards": {
+        "id": "martin-richards",
+        "title": "Мартин Ричардс",
+        "aliases": [
+          "Martin Richards"
+        ],
+        "body": "# Мартин Ричардс\n\nРазработчик BCPL; первый компилятор реализовал в MIT в начале 1967.\n\nОснование: [Мартин Ричардс · How BCPL Evolved from CPL](https://www.cl.cam.ac.uk/~mr10/cpl2bcpl.pdf)."
+      },
       "masatoshi-shima": {
         "id": "masatoshi-shima",
         "title": "Масатоси Сима",
         "aliases": [],
         "body": "# Масатоси Сима\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "niklaus-wirth": {
+        "id": "niklaus-wirth",
+        "title": "Никлаус Вирт",
+        "aliases": [
+          "Niklaus Wirth"
+        ],
+        "body": "# Никлаус Вирт\n\nРазработчик Pascal и ряда последующих языков и систем.\n\nОснование: [Никлаус Вирт · Summary of Projects, 1962–1999](https://people.inf.ethz.ch/wirth/projects.html)."
       },
       "ole-johan-dahl": {
         "id": "ole-johan-dahl",
@@ -142,11 +782,84 @@
         "aliases": [],
         "body": "# Оле-Йохан Даль\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "peter-naur": {
+        "id": "peter-naur",
+        "title": "Петер Наур",
+        "aliases": [
+          "Peter Naur"
+        ],
+        "body": "# Петер Наур\n\nРедактор коллективного отчёта ALGOL 60.\n\nОснование: [Петер Наур и комитет · Report on the Algorithmic Language ALGOL 60](https://doi.org/10.1145/367236.367262)."
+      },
+      "philippe-roussel": {
+        "id": "philippe-roussel",
+        "title": "Филипп Руссель",
+        "aliases": [
+          "Philippe Roussel"
+        ],
+        "body": "# Филипп Руссель\n\nСоавтор раннего Prolog и его первой реализации.\n\nОснование: [CHM Software Preservation Group · Prolog Historical Sources](https://softwarepreservation.computerhistory.org/prolog/)."
+      },
+      "richard-stallman": {
+        "id": "richard-stallman",
+        "title": "Ричард Столлман",
+        "aliases": [
+          "Richard Stallman",
+          "RMS"
+        ],
+        "body": "# Ричард Столлман\n\nОбъявил GNU в сентябре 1983 как проект свободной Unix-совместимой системы.\n\nОснование: [Ричард Столлман · Initial GNU Announcement · 27 сентября 1983](https://www.gnu.org/gnu/initial-announcement.html)."
+      },
       "robert-noyce": {
         "id": "robert-noyce",
         "title": "Роберт Нойс",
         "aliases": [],
         "body": "# Роберт Нойс\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "robin-milner": {
+        "id": "robin-milner",
+        "title": "Робин Милнер",
+        "aliases": [
+          "Robin Milner"
+        ],
+        "body": "# Робин Милнер\n\nРуководил работой над Edinburgh LCF и ранним ML.\n\nОснование: [Маккуин, Харпер, Реппи · The History of Standard ML](https://www.cs.cmu.edu/~rwh/papers/history/main.pdf)."
+      },
+      "russell-varian": {
+        "id": "russell-varian",
+        "title": "Рассел Вариан",
+        "aliases": [
+          "Russell Varian"
+        ],
+        "body": "# Рассел Вариан\n\nС братом Сигурдом и физиком Уильямом Хансеном участвовал в разработке клистрона.\n\nОснование: [Stanford · Ginzton Laboratory: History](https://ginzton.stanford.edu/about-lab/history)."
+      },
+      "sam-leffler": {
+        "id": "sam-leffler",
+        "title": "Сэм Леффлер",
+        "aliases": [
+          "Sam Leffler"
+        ],
+        "body": "# Сэм Леффлер\n\nУчастник CSRG, завершавший интеграцию и подготовку выпуска 4.2BSD.\n\nОснование: [Маршалл Кирк Маккьюсик · Twenty Years of Berkeley Unix](https://www.oreilly.com/openbook/opensources/book/kirkmck.html_original)."
+      },
+      "sheldon-roberts": {
+        "id": "sheldon-roberts",
+        "title": "Шелдон Робертс",
+        "aliases": [
+          "Sheldon Roberts"
+        ],
+        "body": "# Шелдон Робертс\n\nОдин из восьми сооснователей Fairchild Semiconductor.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
+      },
+      "sherman-fairchild": {
+        "id": "sherman-fairchild",
+        "title": "Шерман Фэрчайлд",
+        "aliases": [
+          "Sherman Fairchild"
+        ],
+        "body": "# Шерман Фэрчайлд\n\nОснователь Fairchild Camera and Instrument, предоставившей финансирование новой полупроводниковой компании.\n\nОснование: [CHM · Fairchild Semiconductor: The 60th Anniversary](https://computerhistory.org/blog/fairchild-semiconductor-the-60th-anniversary-of-a-silicon-valley-legend/)."
+      },
+      "sigurd-varian": {
+        "id": "sigurd-varian",
+        "title": "Сигурд Вариан",
+        "aliases": [
+          "Sigurd Varian"
+        ],
+        "body": "# Сигурд Вариан\n\nУчастник разработки клистрона и сооснователь Varian Associates.\n\nОснование: [Stanford · Ginzton Laboratory: History](https://ginzton.stanford.edu/about-lab/history)."
       },
       "stanley-mazor": {
         "id": "stanley-mazor",
@@ -154,17 +867,84 @@
         "aliases": [],
         "body": "# Стэнли Мэйзор\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "steve-jobs": {
+        "id": "steve-jobs",
+        "title": "Стив Джобс",
+        "aliases": [
+          "Steve Jobs"
+        ],
+        "body": "# Стив Джобс\n\nУчаствовал в коммерциализации Apple I и создании Apple.\n\nОснование: [CHM · Apple Computer, Inc. · Selling the Computer Revolution](https://www.computerhistory.org/brochures/a-c/)."
+      },
+      "steve-wozniak": {
+        "id": "steve-wozniak",
+        "title": "Стив Возняк",
+        "aliases": [
+          "Steve Wozniak"
+        ],
+        "body": "# Стив Возняк\n\nРазработчик Apple I и участник Homebrew Computer Club.\n\nОснование: [CHM · Apple Computer, Inc. · Selling the Computer Revolution](https://www.computerhistory.org/brochures/a-c/)."
+      },
       "ted-hoff": {
         "id": "ted-hoff",
         "title": "Тед Хофф",
         "aliases": [],
         "body": "# Тед Хофф\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "thomas-kurtz": {
+        "id": "thomas-kurtz",
+        "title": "Томас Курц",
+        "aliases": [
+          "Thomas Kurtz",
+          "Thomas E. Kurtz"
+        ],
+        "body": "# Томас Курц\n\nСоавтор Dartmouth BASIC.\n\nОснование: [Dartmouth · BASIC at Dartmouth](https://www.dartmouth.edu/basicfifty/basic.html)."
+      },
       "tim-berners-lee": {
         "id": "tim-berners-lee",
         "title": "Тим Бернерс-Ли",
         "aliases": [],
         "body": "# Тим Бернерс-Ли\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
+      },
+      "tim-paterson": {
+        "id": "tim-paterson",
+        "title": "Тим Патерсон",
+        "aliases": [
+          "Tim Paterson"
+        ],
+        "body": "# Тим Патерсон\n\nРазработчик 86-DOS; его работа продолжилась в истории PC DOS и MS-DOS.\n\nОснование: [Microsoft · Continuing the Story of Early DOS Development · 2026](https://opensource.microsoft.com/blog/2026/04/28/continuing-the-story-of-early-dos-development/)."
+      },
+      "tom-kilburn": {
+        "id": "tom-kilburn",
+        "title": "Том Килберн",
+        "aliases": [
+          "Tom Kilburn"
+        ],
+        "body": "# Том Килберн\n\nРуководитель университетской команды Atlas в Манчестере.\n\nОснование: [University of Manchester · Atlas и Tom Kilburn](https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/kilburn.html)."
+      },
+      "tom-leonard": {
+        "id": "tom-leonard",
+        "title": "Том Леонард",
+        "aliases": [
+          "Tom Leonard"
+        ],
+        "body": "# Том Леонард\n\nВедущий программист Thief: The Dark Project, автор постмортема 1999 года. Его роль не следует смешивать с ролью основного проектировщика Dark Object System, которую он приписывает Марку Леблану."
+      },
+      "tony-hoare": {
+        "id": "tony-hoare",
+        "title": "Чарльз Энтони Ричард Хоар",
+        "aliases": [
+          "C. A. R. Hoare",
+          "Tony Hoare",
+          "Тони Хоар"
+        ],
+        "body": "# Чарльз Энтони Ричард Хоар\n\nАвтор Record Handling. Роль предложений Хоара описана разработчиками Simula в The Development of the SIMULA Languages, разделы 3.1–3.2."
+      },
+      "victor-grinich": {
+        "id": "victor-grinich",
+        "title": "Виктор Гринич",
+        "aliases": [
+          "Victor Grinich"
+        ],
+        "body": "# Виктор Гринич\n\nОдин из восьми сооснователей Fairchild Semiconductor.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
       },
       "vint-cerf": {
         "id": "vint-cerf",
@@ -178,6 +958,33 @@
         "aliases": [],
         "body": "# Уолтер Браттейн\n\nБиография пока не добавлена. Участие в событиях определяется ссылками из карточек событий."
       },
+      "william-eitel": {
+        "id": "william-eitel",
+        "title": "Уильям Айтель",
+        "aliases": [
+          "William Eitel",
+          "Bill Eitel"
+        ],
+        "body": "# Уильям Айтель\n\nСовместно с Джеком Маккалоу основал Eitel-McCullough в 1934 для производства передающих ламп.\n\nОснование: [Communications & Power Industries · History](https://www.cpii.com/history/)."
+      },
+      "william-hansen": {
+        "id": "william-hansen",
+        "title": "Уильям Хансен",
+        "aliases": [
+          "William Hansen",
+          "William W. Hansen"
+        ],
+        "body": "# Уильям Хансен\n\nФизик Stanford; его исследования резонаторов и совместная работа с братьями Вариан лежат в основе клистрона.\n\nОснование: [Stanford · Ginzton Laboratory: History](https://ginzton.stanford.edu/about-lab/history)."
+      },
+      "william-hewlett": {
+        "id": "william-hewlett",
+        "title": "Уильям Хьюлетт",
+        "aliases": [
+          "William Hewlett",
+          "Bill Hewlett"
+        ],
+        "body": "# Уильям Хьюлетт\n\nСооснователь Hewlett-Packard; ранняя продукция компании — измерительные приборы.\n\nОснование: [Hewlett-Packard · Хронология 1930-х](https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_30s.html)."
+      },
       "william-shockley": {
         "id": "william-shockley",
         "title": "Уильям Шокли",
@@ -186,6 +993,22 @@
       }
     },
     "orgs": {
+      "amd": {
+        "id": "amd",
+        "title": "AMD",
+        "aliases": [
+          "Advanced Micro Devices"
+        ],
+        "body": "# AMD\n\nПолупроводниковая компания, основанная в 1969.\n\nОснование: [AMD · Investor Relations FAQ](https://ir.amd.com/contacts-faq/faq)."
+      },
+      "apple-computer": {
+        "id": "apple-computer",
+        "title": "Apple Computer",
+        "aliases": [
+          "Apple"
+        ],
+        "body": "# Apple Computer\n\nКомпания, продававшая Apple I в 1976. В этой базе рассматривается исторический контекст, а не современные продукты.\n\nОснование: [CHM · Apple Computer, Inc. · Selling the Computer Revolution](https://www.computerhistory.org/brochures/a-c/)."
+      },
       "arpa": {
         "id": "arpa",
         "title": "ARPA",
@@ -198,11 +1021,25 @@
         "aliases": [],
         "body": "# ARPANET\n\nОписание института пока не добавлено."
       },
+      "ati": {
+        "id": "ati",
+        "title": "ATI Technologies",
+        "aliases": [
+          "ATI"
+        ],
+        "body": "# ATI Technologies\n\nКомпания графических технологий, приобретённая AMD в октябре 2006.\n\nОснование: [AMD · Form 10-K 2006 · приобретение ATI](https://ir.amd.com/financial-information/sec-filings/content/0001193125-07-044191/d10k.htm)."
+      },
       "bbn": {
         "id": "bbn",
         "title": "BBN",
         "aliases": [],
         "body": "# BBN\n\nОписание института пока не добавлено."
+      },
+      "beckman-instruments": {
+        "id": "beckman-instruments",
+        "title": "Beckman Instruments",
+        "aliases": [],
+        "body": "# Beckman Instruments\n\nКомпания, поддержавшая лабораторию Шокли.\n\nОснование: [CHM · Silicon Comes to Silicon Valley](https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/)."
       },
       "bell-labs": {
         "id": "bell-labs",
@@ -222,11 +1059,67 @@
         "aliases": [],
         "body": "# CERN\n\nОписание института пока не добавлено."
       },
+      "cwi": {
+        "id": "cwi",
+        "title": "CWI",
+        "aliases": [
+          "Centrum Wiskunde & Informatica"
+        ],
+        "body": "# CWI\n\nНидерландский исследовательский институт, где ван Россум начал работу над Python.\n\nОснование: [Python · General FAQ: Why Was Python Created?](https://docs.python.org/3/faq/general.html#why-was-python-created-in-the-first-place)."
+      },
       "darpa": {
         "id": "darpa",
         "title": "DARPA",
         "aliases": [],
         "body": "# DARPA\n\nОписание института пока не добавлено."
+      },
+      "dartmouth-college": {
+        "id": "dartmouth-college",
+        "title": "Дартмутский колледж",
+        "aliases": [
+          "Dartmouth College"
+        ],
+        "body": "# Дартмутский колледж\n\nМесто создания Dartmouth BASIC и связанной системы разделения времени.\n\nОснование: [Dartmouth · BASIC at Dartmouth](https://www.dartmouth.edu/basicfifty/basic.html)."
+      },
+      "dec": {
+        "id": "dec",
+        "title": "Digital Equipment Corporation",
+        "aliases": [
+          "DEC"
+        ],
+        "body": "# Digital Equipment Corporation\n\nРазработчик компьютеров и процессоров Alpha; прежнее место работы ряда архитекторов AMD.\n\nОснование: [AMD · Jim Keller Joins AMD · 1 августа 2012](https://ir.amd.com/news-events/press-releases/detail/240/computer-architect-jim-keller-joins-amd-as-chief-of-processor-group)."
+      },
+      "digital-research": {
+        "id": "digital-research",
+        "title": "Digital Research",
+        "aliases": [
+          "DRI"
+        ],
+        "body": "# Digital Research\n\nКомпания, распространявшая CP/M; ранний прототип предшествует её основанию.\n\nОснование: [CHM · Early Digital Research CP/M Source Code](https://computerhistory.org/blog/early-digital-research-cpm-source-code/)."
+      },
+      "eimac": {
+        "id": "eimac",
+        "title": "Eitel-McCullough",
+        "aliases": [
+          "Eimac",
+          "EIMAC"
+        ],
+        "body": "# Eitel-McCullough\n\nПроизводитель передающих электронных ламп, основанный в 1934.\n\nОснование: [Communications & Power Industries · History](https://www.cpii.com/history/)."
+      },
+      "eth-zurich": {
+        "id": "eth-zurich",
+        "title": "ETH Zurich",
+        "aliases": [
+          "ETH Zürich",
+          "Швейцарская высшая техническая школа Цюриха"
+        ],
+        "body": "# ETH Zurich\n\nМесто работы Вирта над Pascal.\n\nОснование: [Никлаус Вирт · Summary of Projects, 1962–1999](https://people.inf.ethz.ch/wirth/projects.html)."
+      },
+      "fairchild-camera-instrument": {
+        "id": "fairchild-camera-instrument",
+        "title": "Fairchild Camera and Instrument",
+        "aliases": [],
+        "body": "# Fairchild Camera and Instrument\n\nМатеринская компания и источник первоначального финансирования Fairchild Semiconductor.\n\nОснование: [CHM · Fairchild Semiconductor: The 60th Anniversary](https://computerhistory.org/blog/fairchild-semiconductor-the-60th-anniversary-of-a-silicon-valley-legend/)."
       },
       "fairchild-semiconductor": {
         "id": "fairchild-semiconductor",
@@ -234,17 +1127,140 @@
         "aliases": [],
         "body": "# Fairchild Semiconductor\n\nОписание института пока не добавлено."
       },
+      "federal-telegraph": {
+        "id": "federal-telegraph",
+        "title": "Federal Telegraph",
+        "aliases": [
+          "Poulsen Wireless Telephone and Telegraph Company"
+        ],
+        "body": "# Federal Telegraph\n\nКомпания радиосвязи, выросшая из предприятия Сирила Элвелла 1909 года.\n\nОснование: [Stanford Magazine · Thinker, Maker, Coder: Try](https://stanfordmag.org/contents/thinker-maker-coder-try)."
+      },
+      "ferranti": {
+        "id": "ferranti",
+        "title": "Ferranti",
+        "aliases": [],
+        "body": "# Ferranti\n\nПромышленный партнёр разработки Atlas и его системного ПО.\n\nОснование: [University of Manchester · Atlas и Tom Kilburn](https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/kilburn.html)."
+      },
+      "freebsd-project": {
+        "id": "freebsd-project",
+        "title": "Проект FreeBSD",
+        "aliases": [
+          "FreeBSD"
+        ],
+        "body": "# Проект FreeBSD\n\nСообщество разработки ОС семейства BSD.\n\nОснование: [FreeBSD · Объявление версии 1.0 · 1 ноября 1993](https://www.freebsd.org/releases/1.0/announce/)."
+      },
+      "freescale": {
+        "id": "freescale",
+        "title": "Freescale Semiconductor",
+        "aliases": [
+          "Freescale"
+        ],
+        "body": "# Freescale Semiconductor\n\nПредыдущее место работы Лизы Су перед переходом в AMD.\n\nОснование: [AMD · Назначение Лизы Су руководителем Global Business Units](https://ir.amd.com/news-events/press-releases/detail/200/amd-to-appoint-dr-lisa-su-as-senior-vice-president-and-general-manager-global-business-units)."
+      },
+      "general-electric": {
+        "id": "general-electric",
+        "title": "General Electric",
+        "aliases": [
+          "GE"
+        ],
+        "body": "# General Electric\n\nУчастник совместной разработки Multics.\n\nОснование: [Корбато, Солтцер, Клинген · Multics: The First Seven Years](https://multicians.org/f7y.html)."
+      },
+      "globalfoundries": {
+        "id": "globalfoundries",
+        "title": "GlobalFoundries",
+        "aliases": [
+          "GLOBALFOUNDRIES",
+          "GF"
+        ],
+        "body": "# GlobalFoundries\n\nКонтрактный производитель полупроводников; возник при выделении производства AMD в 2009.\n\nОснование: [GlobalFoundries · Investor Relations FAQ](https://investors.gf.com/investor-relations/ir-resources/faqs)."
+      },
+      "gnu-project": {
+        "id": "gnu-project",
+        "title": "Проект GNU",
+        "aliases": [
+          "GNU"
+        ],
+        "body": "# Проект GNU\n\nПроект свободной Unix-совместимой системы, объявленный в 1983. Это проект, не зарегистрированная компания.\n\nОснование: [Ричард Столлман · Initial GNU Announcement · 27 сентября 1983](https://www.gnu.org/gnu/initial-announcement.html)."
+      },
+      "hewlett-packard": {
+        "id": "hewlett-packard",
+        "title": "Hewlett-Packard",
+        "aliases": [
+          "HP"
+        ],
+        "body": "# Hewlett-Packard\n\nИсторическая Hewlett-Packard, основанная как партнёрство в 1939. Не смешивается с отдельными компаниями после разделения 2015.\n\nОснование: [Hewlett-Packard · Хронология 1930-х](https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_30s.html)."
+      },
+      "homebrew-computer-club": {
+        "id": "homebrew-computer-club",
+        "title": "Homebrew Computer Club",
+        "aliases": [
+          "Homebrew"
+        ],
+        "body": "# Homebrew Computer Club\n\nСообщество любителей персональных компьютеров, первая встреча в марте 1975.\n\nОснование: [Homebrew Computer Club Newsletter · 31 марта 1976](https://bitsavers.computerhistory.org/pdf/homebrewCC/HCC_Newsletter_V2_N03.pdf)."
+      },
+      "ibm": {
+        "id": "ibm",
+        "title": "IBM",
+        "aliases": [
+          "International Business Machines"
+        ],
+        "body": "# IBM\n\nРазработчик семейства System/360 и участник истории PC DOS.\n\nОснование: [IBM · System/360 Operating System: Introduction · ноябрь 1966](https://bitsavers.computerhistory.org/pdf/ibm/360/os/R01-08/C28-6534-1_OS_Intro_Nov66.pdf)."
+      },
       "intel": {
         "id": "intel",
         "title": "Intel",
         "aliases": [],
         "body": "# Intel\n\nОписание института пока не добавлено."
       },
+      "linux-project": {
+        "id": "linux-project",
+        "title": "Проект Linux",
+        "aliases": [
+          "Linux kernel"
+        ],
+        "body": "# Проект Linux\n\nРазработка ядра Linux; не тождественна всему пользовательскому окружению дистрибутива.\n\nОснование: [Линус Торвальдс · Notes for Linux Release 0.01](https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.01)."
+      },
+      "looking-glass-studios": {
+        "id": "looking-glass-studios",
+        "title": "Looking Glass Studios",
+        "aliases": [
+          "Looking Glass"
+        ],
+        "body": "# Looking Glass Studios\n\nСтудия, разработавшая Thief: The Dark Project. Источник: постмортем Тома Леонарда, 1999."
+      },
+      "microsoft": {
+        "id": "microsoft",
+        "title": "Microsoft",
+        "aliases": [],
+        "body": "# Microsoft\n\nУчастник истории DOS и разработчик Windows NT.\n\nОснование: [Microsoft · История Дейва Катлера и Windows NT](https://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality/)."
+      },
+      "mit-lincoln-laboratory": {
+        "id": "mit-lincoln-laboratory",
+        "title": "MIT Lincoln Laboratory",
+        "aliases": [
+          "Lincoln Laboratory"
+        ],
+        "body": "# MIT Lincoln Laboratory\n\nЛаборатория, где Сазерленд разработал Sketchpad на TX-2. Источник: Sketchpad, глава II и благодарности. Её следует отличать от Electronic Systems Laboratory, где работал Росс."
+      },
       "mit": {
         "id": "mit",
         "title": "MIT",
         "aliases": [],
         "body": "# MIT\n\nОписание института пока не добавлено."
+      },
+      "netscape": {
+        "id": "netscape",
+        "title": "Netscape Communications",
+        "aliases": [
+          "Netscape"
+        ],
+        "body": "# Netscape Communications\n\nРазработчик Navigator и первоначального JavaScript.\n\nОснование: [Аллен Вирфс-Брок и Брендан Айк · JavaScript: The First 20 Years](https://www.wirfs-brock.com/allen/jshopl.pdf)."
+      },
+      "nexgen": {
+        "id": "nexgen",
+        "title": "NexGen",
+        "aliases": [],
+        "body": "# NexGen\n\nПроцессорная компания, приобретённая AMD в январе 1996.\n\nОснование: [AMD · Проспект 1996 · приобретение NexGen](https://ir.amd.com/financial-information/sec-filings/content/0000950109-96-005024/424B5.txt)."
       },
       "norwegian-computing-center": {
         "id": "norwegian-computing-center",
@@ -264,11 +1280,37 @@
         "aliases": [],
         "body": "# SRI\n\nОписание института пока не добавлено."
       },
+      "stanford-research-park": {
+        "id": "stanford-research-park",
+        "title": "Stanford Research Park",
+        "aliases": [
+          "Stanford Industrial Park"
+        ],
+        "body": "# Stanford Research Park\n\nИсследовательский парк на земле Stanford; первый договор аренды подписан в 1951.\n\nОснование: [Stanford Archives · University milestones](https://guides.library.stanford.edu/c.php?g=1311993&p=9846400)."
+      },
       "stanford-university": {
         "id": "stanford-university",
         "title": "Stanford University",
         "aliases": [],
         "body": "# Stanford University\n\nОписание института пока не добавлено."
+      },
+      "sun-microsystems": {
+        "id": "sun-microsystems",
+        "title": "Sun Microsystems",
+        "aliases": [
+          "Sun"
+        ],
+        "body": "# Sun Microsystems\n\nКомпания, объявившая Java на SunWorld 1995 и участвовавшая в анонсе JavaScript вместе с Netscape.\n\nОснование: [Oracle · A Brief History of Java](https://education.oracle.com/file/general/4955_BriefHistoryOfJava_7.pdf)."
+      },
+      "uc-berkeley": {
+        "id": "uc-berkeley",
+        "title": "Калифорнийский университет в Беркли",
+        "aliases": [
+          "UC Berkeley",
+          "University of California, Berkeley",
+          "CSRG"
+        ],
+        "body": "# Калифорнийский университет в Беркли\n\nМесто разработки Berkeley Unix и деятельности Computer Systems Research Group.\n\nОснование: [Маршалл Кирк Маккьюсик · Twenty Years of Berkeley Unix](https://www.oreilly.com/openbook/opensources/book/kirkmck.html_original)."
       },
       "ucla": {
         "id": "ucla",
@@ -282,11 +1324,41 @@
         "aliases": [],
         "body": "# UCSB\n\nОписание института пока не добавлено."
       },
+      "university-of-cambridge": {
+        "id": "university-of-cambridge",
+        "title": "Кембриджский университет",
+        "aliases": [
+          "University of Cambridge"
+        ],
+        "body": "# Кембриджский университет\n\nКонтекст разработки CPL и BCPL Мартином Ричардсом; первый компилятор BCPL появился в MIT.\n\nОснование: [Мартин Ричардс · How BCPL Evolved from CPL](https://www.cl.cam.ac.uk/~mr10/cpl2bcpl.pdf)."
+      },
+      "university-of-edinburgh": {
+        "id": "university-of-edinburgh",
+        "title": "Эдинбургский университет",
+        "aliases": [
+          "University of Edinburgh"
+        ],
+        "body": "# Эдинбургский университет\n\nМесто разработки Edinburgh LCF и ML.\n\nОснование: [Маккуин, Харпер, Реппи · The History of Standard ML](https://www.cs.cmu.edu/~rwh/papers/history/main.pdf)."
+      },
+      "university-of-manchester": {
+        "id": "university-of-manchester",
+        "title": "Манчестерский университет",
+        "aliases": [
+          "University of Manchester"
+        ],
+        "body": "# Манчестерский университет\n\nУниверситетская команда разработки Atlas.\n\nОснование: [University of Manchester · Atlas и Tom Kilburn](https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/kilburn.html)."
+      },
       "university-of-utah": {
         "id": "university-of-utah",
         "title": "University of Utah",
         "aliases": [],
         "body": "# University of Utah\n\nОписание института пока не добавлено."
+      },
+      "varian-associates": {
+        "id": "varian-associates",
+        "title": "Varian Associates",
+        "aliases": [],
+        "body": "# Varian Associates\n\nКомпания, основанная в 1948 для коммерциализации клистронов и другой электроники.\n\nОснование: [Communications & Power Industries · History](https://www.cpii.com/history/)."
       },
       "xerox-parc": {
         "id": "xerox-parc",
@@ -297,6 +1369,170 @@
     }
   },
   "EVENTS": [
+    {
+      "id": "federal-telegraph-foundation",
+      "title": "Радиосвязь: предприятие Элвелла",
+      "date": {
+        "start": "1909",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1909,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "cyril-elwell",
+        "david-starr-jordan"
+      ],
+      "orgs": [
+        "federal-telegraph",
+        "stanford-university"
+      ],
+      "status": "draft",
+      "sources": [
+        "stanford-early-electronics",
+        "wesling-valley-origins"
+      ],
+      "text": "Сирил Элвелл создаёт в Пало-Альто компанию беспроводной связи, позднее известную как Federal Telegraph.",
+      "problem": "Как организовать надёжную дальнюю радиосвязь?",
+      "meaning": "Связи выпускников, преподавателей и частных сторонников соединяют инженерный опыт с предпринимательством.",
+      "note": "Первоначальное название — Poulsen Wireless Telephone and Telegraph Company. Это компания выпускника с поддержкой местной сети, а не подразделение Stanford. Лекция не доказывает, что это первое венчурное финансирование в мире.",
+      "more": "Видео: 00:03:00–00:06:00. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=180. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "deforest-amplifier",
+      "title": "Де Форест: усиление в Federal Telegraph",
+      "date": {
+        "start": "1912",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1912,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "lee-de-forest"
+      ],
+      "orgs": [
+        "federal-telegraph"
+      ],
+      "status": "draft",
+      "sources": [
+        "deforest-1958-recording",
+        "wesling-valley-origins"
+      ],
+      "text": "В лаборатории Federal Telegraph де Форест работает над использованием электронной лампы как усилителя.",
+      "problem": "Как усиливать слабые электрические сигналы для связи?",
+      "meaning": "Региональная радиопромышленность накапливает опыт работы с электронными лампами.",
+      "note": "1912 указан в собственном позднем воспоминании де Фореста. Это не дата изобретения всех электронных ламп и не доказательство абсолютного приоритета среди всех схем усиления.",
+      "more": "Видео: 00:03:00–00:04:30. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=180. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "eimac-foundation",
+      "title": "Радиолюбители создают Eimac",
+      "date": {
+        "start": "1934",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1934,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "william-eitel",
+        "jack-mccullough",
+        "charles-litton"
+      ],
+      "orgs": [
+        "eimac"
+      ],
+      "status": "draft",
+      "sources": [
+        "cpi-electronics-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Уильям Айтель и Джек Маккалоу основывают Eitel-McCullough для производства передающих электронных ламп.",
+      "problem": "Как получить более надёжные лампы для любительской и профессиональной радиосвязи?",
+      "meaning": "Практические навыки радиолюбителей становятся основой производственного предприятия.",
+      "note": "Литтон указан как участник обмена технологическим опытом по лекции, не как сооснователь Eimac. Утверждения о конкретных патентных победах требуют чтения соответствующих решений.",
+      "more": "Видео: 00:23:00–00:26:59. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=1380. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "klystron-demonstration",
+      "title": "Клистрон в Stanford",
+      "date": {
+        "start": "1937",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1937,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "russell-varian",
+        "sigurd-varian",
+        "william-hansen"
+      ],
+      "orgs": [
+        "stanford-university"
+      ],
+      "status": "draft",
+      "sources": [
+        "stanford-ginzton-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Братья Вариан и Уильям Хансен демонстрируют клистрон — источник высокочастотных колебаний на основе электронного пучка и резонаторов.",
+      "problem": "Как генерировать высокочастотные сигналы для новых радиосистем?",
+      "meaning": "Совместная работа физиков и практиков приводит к технологии для связи, радиолокации и ускорителей.",
+      "note": "Лабораторная демонстрация 1937, публичное сообщение 1939 и основание Varian Associates 1948 — разные этапы.",
+      "more": "Видео: 00:30:23–00:32:59. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=1823. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "hp-foundation",
+      "title": "Партнёрство Hewlett-Packard",
+      "date": {
+        "start": "1939-01-01",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1939,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "william-hewlett",
+        "david-packard",
+        "frederick-terman"
+      ],
+      "orgs": [
+        "hewlett-packard",
+        "stanford-university"
+      ],
+      "status": "draft",
+      "sources": [
+        "hp-1930s-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Уильям Хьюлетт и Дэвид Паккард создают партнёрство Hewlett-Packard; ранний продукт — аудиоосциллятор 200A.",
+      "problem": "Как превратить инженерную разработку в полезный измерительный прибор?",
+      "meaning": "Поддержка наставника и работа над прибором связывают университетскую подготовку с собственной компанией.",
+      "note": "Терман поддерживал основателей, но не указан как сооснователь. Дата партнёрства не равна позднейшей регистрации корпорации.",
+      "more": "Видео: 00:28:01–00:29:59. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=1681. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
     {
       "id": "transistor",
       "title": "Первый транзистор",
@@ -330,6 +1566,72 @@
       "more": ""
     },
     {
+      "id": "varian-foundation",
+      "title": "Основание Varian Associates",
+      "date": {
+        "start": "1948",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1948,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "russell-varian",
+        "sigurd-varian"
+      ],
+      "orgs": [
+        "varian-associates"
+      ],
+      "status": "draft",
+      "sources": [
+        "cpi-electronics-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Создаётся Varian Associates; клистрон становится её первым коммерческим продуктом.",
+      "problem": "Как наладить коммерческое производство технологий, выросших из исследований?",
+      "meaning": "История клистрона получает организационное продолжение за пределами лаборатории.",
+      "note": "Перечислены братья Вариан, а не полный состав сооснователей. Разработка 1937 и коммерциализация новой компанией 1948 не объединяются в одну дату.",
+      "more": "Видео: 00:38:00–00:39:25. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=2280. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "stanford-park-first-lease",
+      "title": "Первый договор Stanford Research Park",
+      "date": {
+        "start": "1951-10-01",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1951,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "frederick-terman"
+      ],
+      "orgs": [
+        "stanford-research-park",
+        "stanford-university",
+        "varian-associates"
+      ],
+      "status": "draft",
+      "sources": [
+        "stanford-park-milestones",
+        "stanford-park-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Stanford подписывает первый договор аренды будущего исследовательского парка с Varian Associates.",
+      "problem": "Как создать постоянную площадку для взаимодействия исследовательской и промышленной среды?",
+      "meaning": "Связи университета с компаниями получают пространственную и договорную основу.",
+      "note": "Эта карточка добавлена по архивной хронологии для контекста лекции. Дата договора не равна дате переезда в построенное здание.",
+      "more": "Видео: 00:37:00–00:39:25. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=2220. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
       "id": "shockley",
       "title": "Шокли в Калифорнии",
       "date": {
@@ -344,20 +1646,25 @@
         "chip"
       ],
       "people": [
-        "william-shockley"
+        "william-shockley",
+        "arnold-beckman"
       ],
       "orgs": [
-        "shockley-semiconductor"
+        "shockley-semiconductor",
+        "beckman-instruments"
       ],
       "status": "draft",
       "sources": [
-        "silicon"
+        "silicon",
+        "chm-shockley-valley",
+        "prohitech-amd-history",
+        "wesling-valley-origins"
       ],
       "text": "Шокли открывает полупроводниковую лабораторию в Маунтин-Вью.",
       "problem": "Как превратить исследования полупроводников в производство?",
       "meaning": "В регионе собирается команда будущих основателей компаний.",
-      "note": "",
-      "more": ""
+      "note": "Бекман поддержал создание подразделения в 1955; открытие лаборатории в Маунтин-Вью относится к 1956. Эти этапы не следует смешивать.",
+      "more": "Pro Hi-Tech: 00:00:54–00:02:52. Stanford: 00:41:03–00:42:59."
     },
     {
       "id": "fairchild",
@@ -376,20 +1683,118 @@
       "people": [
         "robert-noyce",
         "gordon-moore",
-        "jean-hoerni"
+        "jean-hoerni",
+        "julius-blank",
+        "victor-grinich",
+        "eugene-kleiner",
+        "jay-last",
+        "sheldon-roberts",
+        "arthur-rock",
+        "sherman-fairchild"
       ],
       "orgs": [
-        "fairchild-semiconductor"
+        "fairchild-semiconductor",
+        "fairchild-camera-instrument"
       ],
       "status": "draft",
       "sources": [
         "intel",
-        "silicon"
+        "silicon",
+        "chm-fairchild-sixty",
+        "chm-shockley-valley",
+        "prohitech-amd-history",
+        "wesling-valley-origins"
       ],
       "text": "Восемь сотрудников покидают лабораторию Шокли и основывают Fairchild Semiconductor.",
       "problem": "Где развивать собственные инженерные и производственные подходы?",
       "meaning": "Переход команды становится началом новой организации.",
-      "note": "",
+      "note": "Восемь основателей: Бланк, Гринич, Хёрни, Кляйнер, Ласт, Мур, Нойс и Робертс. Артур Рок участвовал в организации финансирования; Шерман Фэрчайлд — представитель стороны инвестора. Они не входят в число восьми инженеров.",
+      "more": "Pro Hi-Tech: 00:01:44–00:03:03. Stanford: 00:42:00–00:44:30. Связь института с событием обозначает участие, а не обязательно трудоустройство всех перечисленных людей."
+    },
+    {
+      "id": "fortran-debut",
+      "title": "Fortran и оптимизирующий компилятор",
+      "date": {
+        "start": "1957",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1957,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "john-backus"
+      ],
+      "orgs": [
+        "ibm"
+      ],
+      "status": "draft",
+      "sources": [
+        "ibm-fortran-history"
+      ],
+      "text": "Команда IBM представляет Fortran и компилятор для IBM 704.",
+      "problem": "Как записывать численные расчёты формулами, сохраняя приемлемую скорость программы?",
+      "meaning": "Компиляция высокого уровня становится практическим инструментом научных вычислений.",
+      "note": "Fortran не называется первым языком вообще. Роль Бэкуса не отменяет работы остальных участников команды.",
+      "more": ""
+    },
+    {
+      "id": "lisp-implementation",
+      "title": "Начало реализации Lisp",
+      "date": {
+        "start": "1958",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1958,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "john-mccarthy"
+      ],
+      "orgs": [
+        "mit"
+      ],
+      "status": "draft",
+      "sources": [
+        "mccarthy-lisp-history"
+      ],
+      "text": "В MIT начинается реализация Lisp на основе ранее разработанных идей.",
+      "problem": "Как программировать преобразования символов и списковых структур?",
+      "meaning": "Рекурсия и вычисление над символьными выражениями формируют отдельную традицию языков.",
+      "note": "Идеи складывались с 1956; реализация началась осенью 1958. Известная публикация 1960 не является датой рождения всех идей Lisp.",
+      "more": ""
+    },
+    {
+      "id": "cobol-draft",
+      "title": "Первый проект COBOL",
+      "date": {
+        "start": "1959",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1959,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [],
+      "orgs": [],
+      "status": "draft",
+      "sources": [
+        "smithsonian-cobol-draft"
+      ],
+      "text": "Комитеты представителей промышленности и государства разрабатывают общий язык деловых задач.",
+      "problem": "Как описывать обработку деловых данных с меньшей зависимостью от модели компьютера?",
+      "meaning": "Совместная спецификация становится способом передачи языка между организациями и производителями.",
+      "note": "Создание COBOL — коллективная работа. Документ 1959, отчёт 1960 и реализации различаются; язык не приписывается одному человеку.",
       "more": ""
     },
     {
@@ -414,12 +1819,104 @@
       ],
       "status": "draft",
       "sources": [
-        "silicon"
+        "silicon",
+        "wesling-valley-origins"
       ],
       "text": "Эрни разрабатывает планарный процесс изготовления транзисторов с защитой поверхности оксидом.",
       "problem": "Как повысить надёжность полупроводниковых устройств?",
       "meaning": "Процесс помогает перейти к монолитным интегральным схемам.",
       "note": "",
+      "more": "Stanford: 00:43:00–00:44:59. Лекция предлагает контекст инфраструктуры и навыков ламповой промышленности; это не доказательство прямого заимствования технологии у конкретной компании."
+    },
+    {
+      "id": "algol60-report",
+      "title": "Публикация отчёта ALGOL 60",
+      "date": {
+        "start": "1960-05",
+        "end": null,
+        "precision": "month",
+        "basis": "publication"
+      },
+      "year": 1960,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "peter-naur"
+      ],
+      "orgs": [],
+      "status": "draft",
+      "sources": [
+        "algol60-report",
+        "algol-standards-archive"
+      ],
+      "text": "Публикуется коллективный отчёт ALGOL 60 под редакцией Петера Наура.",
+      "problem": "Как точно описать язык записи алгоритмов для международного сообщества?",
+      "meaning": "Блоки и процедуры получают формальное описание, ставшее опорой для следующих языков.",
+      "note": "Это исходный отчёт 1960, а не Revised Report 1963; Наур — редактор, не единственный создатель языка.",
+      "more": ""
+    },
+    {
+      "id": "ross-plex",
+      "title": "Plex: публикация Росса",
+      "date": {
+        "start": "1961-03",
+        "end": null,
+        "precision": "month",
+        "basis": "publication"
+      },
+      "year": 1961,
+      "topic": "oop",
+      "topics": [
+        "oop"
+      ],
+      "people": [
+        "douglas-ross"
+      ],
+      "orgs": [
+        "mit"
+      ],
+      "status": "draft",
+      "sources": [
+        "ross-plex-1961",
+        "sketchpad-1963",
+        "muratori-big-oops-2025"
+      ],
+      "text": "В CACM выходит статья Росса о символических вычислениях; более поздние работы связывают её с n-компонентными структурами Plex.",
+      "problem": "Как представить взаимосвязанные данные для вычислений?",
+      "meaning": "Появляется документальная опорная точка линии Plex.",
+      "note": "Это дата журнальной публикации, не возникновения идеи. Упоминание 1960 года в докладе не перенесено как дата этой журнальной статьи. Полный её текст ещё нужно сопоставить.",
+      "more": "Связанный фрагмент доклада Муратори: 01:00:20–01:06:20. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "ctss-demo",
+      "title": "CTSS: демонстрация разделения времени",
+      "date": {
+        "start": "1961-11",
+        "end": null,
+        "precision": "month",
+        "basis": "event"
+      },
+      "year": 1961,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "fernando-corbato"
+      ],
+      "orgs": [
+        "mit"
+      ],
+      "status": "draft",
+      "sources": [
+        "corbato-oral-history"
+      ],
+      "text": "В MIT демонстрируют CTSS с четырьмя терминалами.",
+      "problem": "Как нескольким людям интерактивно работать с одним дорогим компьютером?",
+      "meaning": "Разделение времени меняет способ доступа к вычислениям.",
+      "note": "По воспоминанию Корбато, демонстрация состоялась приблизительно в середине ноября. Сохранена точность месяца; CTSS не названа первой ОС вообще.",
       "more": ""
     },
     {
@@ -453,6 +1950,70 @@
       "more": ""
     },
     {
+      "id": "simula-letter",
+      "title": "Simula: письмо о замысле",
+      "date": {
+        "start": "1962-01-05",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1962,
+      "topic": "lang",
+      "topics": [
+        "lang",
+        "oop"
+      ],
+      "people": [
+        "kristen-nygaard"
+      ],
+      "orgs": [
+        "norwegian-computing-center"
+      ],
+      "status": "draft",
+      "sources": [
+        "simula-history-1978",
+        "muratori-big-oops-2025"
+      ],
+      "text": "В ретроспективе разработчиков приведено письмо Нюгора Шарлю Зальцману с описанием задуманного языка моделирования.",
+      "problem": "Как описывать очереди и другие дискретные системы?",
+      "meaning": "Замысел прослеживается через датированный документ.",
+      "note": "Письмо воспроизведено в разделе 2.1 ретроспективы; отдельный оригинал переписки не изучен.",
+      "more": "Связанный фрагмент доклада Муратори: 00:32:02–00:35:59. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "atlas-supervisor",
+      "title": "Atlas: запуск с Supervisor",
+      "date": {
+        "start": "1962-12",
+        "end": null,
+        "precision": "month",
+        "basis": "event"
+      },
+      "year": 1962,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "tom-kilburn",
+        "david-howarth"
+      ],
+      "orgs": [
+        "university-of-manchester",
+        "ferranti"
+      ],
+      "status": "draft",
+      "sources": [
+        "atlas-supervisor-history"
+      ],
+      "text": "Atlas начинает работать с ранней версией Supervisor.",
+      "problem": "Как автоматически управлять заданиями, устройствами и памятью большой вычислительной системы?",
+      "meaning": "Системное ПО координирует ресурсы вместо ручного ведения каждого задания.",
+      "note": "В декабре 1962 Supervisor ещё имел ограниченную функциональность; полное развитие заняло дополнительное время. Запуск компьютера не равен завершению всей ОС.",
+      "more": ""
+    },
+    {
       "id": "sketchpad",
       "title": "Sketchpad",
       "date": {
@@ -470,17 +2031,20 @@
         "ivan-sutherland"
       ],
       "orgs": [
-        "mit"
+        "mit",
+        "mit-lincoln-laboratory"
       ],
       "status": "draft",
       "sources": [
-        "kay"
+        "kay",
+        "sketchpad-1963",
+        "muratori-big-oops-2025"
       ],
       "text": "Сазерленд создаёт интерактивную графическую систему с экземплярами и образцами.",
       "problem": "Как работать с графическими объектами непосредственно на экране?",
       "meaning": "Кей позднее описывает Sketchpad как один из источников своих идей.",
-      "note": "",
-      "more": ""
+      "note": "Влияние структуры Росса подтверждается текстом Сазерленда. Сопоставление кольцевых структур Sketchpad с ECS — современная интерпретация Муратори, а не доказательство прямой передачи в Looking Glass.",
+      "more": "Видео: 01:06:20–01:18:59 и 01:29:00–01:44:59. Глава III диссертации описывает кольцевую структуру данных."
     },
     {
       "id": "plex",
@@ -505,12 +2069,199 @@
       ],
       "status": "draft",
       "sources": [
-        "plex"
+        "plex",
+        "ross-plex-1961",
+        "sketchpad-preface-2003"
       ],
       "text": "Отчёт об AED рассматривает словесное и графическое описание моделей с использованием plex-концепций.",
       "problem": "Как одним подходом описывать структуры и графические модели для автоматизированного проектирования?",
       "meaning": "Важная соседняя линия истории представления данных и моделирования.",
-      "note": "1964 — дата отчёта, а не рождения концепции. Прямая связь Plex → ООП здесь не установлена. Не следует путать plex Росса с языком Ericsson PLEX.",
+      "note": "1964 — дата отчёта об AED, не рождения Plex. Ранняя публикация и связи с Sketchpad и Хоаром теперь вынесены в отдельные карточки. Не следует путать plex Росса с языком Ericsson PLEX.",
+      "more": ""
+    },
+    {
+      "id": "dartmouth-basic",
+      "title": "Первые успешные программы BASIC",
+      "date": {
+        "start": "1964-05-01",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1964,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "john-kemeny",
+        "thomas-kurtz"
+      ],
+      "orgs": [
+        "dartmouth-college"
+      ],
+      "status": "draft",
+      "sources": [
+        "dartmouth-basic-history"
+      ],
+      "text": "В Dartmouth успешно запускают BASIC в системе разделения времени.",
+      "problem": "Как дать студентам без специальной подготовки прямой доступ к программированию?",
+      "meaning": "Простота языка и интерактивная среда помогают расширить круг пользователей компьютера.",
+      "note": "Дартмутский BASIC 1964 не тождественен всем позднейшим диалектам. В разработке участвовали студенты; список людей в карточке неполон.",
+      "more": ""
+    },
+    {
+      "id": "multics-project",
+      "title": "Multics: совместная разработка",
+      "date": {
+        "start": "1965",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1965,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "fernando-corbato"
+      ],
+      "orgs": [
+        "mit",
+        "general-electric",
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "multics-first-seven-years"
+      ],
+      "text": "MIT, General Electric и Bell Labs совместно разрабатывают Multics.",
+      "problem": "Как создать долговременную многопользовательскую вычислительную службу?",
+      "meaning": "Проект развивает идеи разделения времени, организации памяти и защиты доступа.",
+      "note": "Планирование началось раньше; 1965 — этап совместной разработки, а не готовый выпуск. Bell Labs вышла из проекта в 1969, но Multics продолжал развиваться.",
+      "more": ""
+    },
+    {
+      "id": "simula-i",
+      "title": "Готов компилятор Simula I",
+      "date": {
+        "start": "1965-01",
+        "end": null,
+        "precision": "month",
+        "basis": "event"
+      },
+      "year": 1965,
+      "topic": "lang",
+      "topics": [
+        "lang",
+        "oop"
+      ],
+      "people": [
+        "kristen-nygaard",
+        "ole-johan-dahl"
+      ],
+      "orgs": [
+        "norwegian-computing-center"
+      ],
+      "status": "draft",
+      "sources": [
+        "simula-history-1978",
+        "muratori-big-oops-2025"
+      ],
+      "text": "Авторы сообщают о готовности компилятора Simula I в январе 1965 года.",
+      "problem": "Как реализовать язык дискретного моделирования?",
+      "meaning": "У Simula появляется работающий инструмент для практического применения.",
+      "note": "Готовность компилятора и окончательная приёмка заказчиком — разные события. Simula I нельзя подменять более поздней Simula 67.",
+      "more": "Связанный фрагмент доклада Муратори: 00:34:00–00:35:59. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "hoare-record-handling",
+      "title": "Хоар: Record Handling",
+      "date": {
+        "start": "1965-11",
+        "end": null,
+        "precision": "month",
+        "basis": "publication"
+      },
+      "year": 1965,
+      "topic": "oop",
+      "topics": [
+        "oop"
+      ],
+      "people": [
+        "tony-hoare"
+      ],
+      "orgs": [],
+      "status": "draft",
+      "sources": [
+        "simula-history-1978",
+        "hoare-record-handling-1966",
+        "muratori-big-oops-2025"
+      ],
+      "text": "Библиография разработчиков Simula указывает публикацию Record Handling в ALGOL Bulletin 21, ноябрь 1965.",
+      "problem": "Как организовать записи и их разновидности?",
+      "meaning": "Документ становится ориентиром для последующей работы над Simula.",
+      "note": "В докладе рассматривается версия 1966 года. Указанная здесь дата относится к более ранней публикации; полный оригинал именно Bulletin 21 ещё не сопоставлен.",
+      "more": "Связанный фрагмент доклада Муратори: 00:42:02–00:49:59. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "os360-platform",
+      "title": "OS/360: управление заданиями",
+      "date": {
+        "start": "1966",
+        "end": null,
+        "precision": "year",
+        "basis": "version"
+      },
+      "year": 1966,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [],
+      "orgs": [
+        "ibm"
+      ],
+      "status": "draft",
+      "sources": [
+        "os360-introduction-1966"
+      ],
+      "text": "Руководство IBM описывает OS/360 для семейства System/360: обработку заданий и управление ресурсами.",
+      "problem": "Как выполнять разные задания на совместимой аппаратной платформе?",
+      "meaning": "Операционная система становится крупной программной платформой для семейства машин.",
+      "note": "Дата фиксирует документированный этап OS/360 по редакции руководства ноября 1966. Анонс аппаратного семейства System/360 состоялся в 1964; это не дата готовности всей ОС.",
+      "more": ""
+    },
+    {
+      "id": "bcpl-compiler",
+      "title": "Первый компилятор BCPL",
+      "date": {
+        "start": "1967",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1967,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "martin-richards"
+      ],
+      "orgs": [
+        "mit",
+        "university-of-cambridge"
+      ],
+      "status": "draft",
+      "sources": [
+        "richards-bcpl-history"
+      ],
+      "text": "Ричардс реализует первый компилятор BCPL в MIT.",
+      "problem": "Как получить компактный системный язык и реализацию, которую удобно переносить?",
+      "meaning": "Упрощение CPL даёт самостоятельный язык и важного предшественника B.",
+      "note": "Набросок BCPL появился в 1966; карточка датирует компилятор начала 1967. CPL пока не представлен отдельным событием.",
       "more": ""
     },
     {
@@ -523,8 +2274,9 @@
         "basis": "event"
       },
       "year": 1967,
-      "topic": "oop",
+      "topic": "lang",
       "topics": [
+        "lang",
         "oop"
       ],
       "people": [
@@ -536,13 +2288,14 @@
       ],
       "status": "draft",
       "sources": [
-        "kay"
+        "kay",
+        "simula-history-1978"
       ],
       "text": "В Simula развиваются классы и объекты; идеи языка становятся одним из источников Smalltalk.",
       "problem": "Как представить взаимодействующие сущности моделируемой системы?",
       "meaning": "Объекты становятся способом организации программы.",
-      "note": "",
-      "more": ""
+      "note": "Simula I и Simula 67 — разные стадии. Раннее влияние на Кея представлено отдельной связью от Simula I; роль наследования показана через Smalltalk-76.",
+      "more": "Видео: 00:32:02–00:49:59. Первоисточник: The Development of the SIMULA Languages, раздел 3."
     },
     {
       "id": "intel",
@@ -567,13 +2320,15 @@
       ],
       "status": "draft",
       "sources": [
-        "intel"
+        "intel",
+        "prohitech-amd-history",
+        "wesling-valley-origins"
       ],
       "text": "Нойс и Мур, ранее сооснователи Fairchild, создают Intel.",
       "problem": "Как построить новую компанию вокруг полупроводниковой памяти?",
       "meaning": "Знания распространяются вместе с людьми между компаниями.",
       "note": "",
-      "more": ""
+      "more": "Pro Hi-Tech: 00:03:03–00:07:48. Stanford: 00:45:02–00:45:59. Мотивы финансирования и необходимость «конкурента для государственных заказов» не считаются установленными фактами по одному пересказу."
     },
     {
       "id": "arpanet",
@@ -613,6 +2368,162 @@
       "more": ""
     },
     {
+      "id": "b-language",
+      "title": "Томпсон создаёт B",
+      "date": {
+        "start": "1969",
+        "end": "1970",
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1969,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "ken-thompson"
+      ],
+      "orgs": [
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "ritchie-c-history"
+      ],
+      "text": "Кен Томпсон разрабатывает B, используя BCPL как исходный ориентир.",
+      "problem": "Как получить небольшой язык для системной работы на ограниченной машине?",
+      "meaning": "Возникает непосредственный языковой предшественник C.",
+      "note": "Преемственность BCPL → B и период 1969–1970 описаны Ритчи; B не является ранним именем всех последующих версий C.",
+      "more": ""
+    },
+    {
+      "id": "unix-origin",
+      "title": "Unix на PDP-7",
+      "date": {
+        "start": "1969",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1969,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "ken-thompson",
+        "dennis-ritchie"
+      ],
+      "orgs": [
+        "bell-labs",
+        "dec"
+      ],
+      "status": "draft",
+      "sources": [
+        "ritchie-unix-evolution"
+      ],
+      "text": "В Bell Labs возникает ранний Unix для PDP-7.",
+      "problem": "Как вернуть небольшой группе удобную интерактивную среду после выхода из Multics?",
+      "meaning": "Начинается самостоятельная линия Unix с компактной реализацией и общей файловой моделью.",
+      "note": "DEC указана как производитель PDP-7, а не соразработчик Unix. Unix не является просто переименованной копией Multics.",
+      "more": ""
+    },
+    {
+      "id": "amd-foundation",
+      "title": "Основание AMD",
+      "date": {
+        "start": "1969-05-01",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1969,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "jerry-sanders"
+      ],
+      "orgs": [
+        "amd",
+        "fairchild-semiconductor"
+      ],
+      "status": "draft",
+      "sources": [
+        "amd-corporate-faq",
+        "chm-fairchildren",
+        "prohitech-amd-history"
+      ],
+      "text": "Джерри Сандерс и группа коллег создают Advanced Micro Devices.",
+      "problem": "Как построить самостоятельный полупроводниковый бизнес после работы в Fairchild?",
+      "meaning": "Появляется ещё одна ветвь компаний, созданных выходцами из Fairchild.",
+      "note": "Восемь основателей AMD 1969 года — другая группа, чем восемь основателей Fairchild 1957 года. Полный состав команды AMD пока не размечен.",
+      "more": "Видео: 00:03:03–00:07:48. Ссылка на фрагмент: https://www.youtube.com/watch?v=YRvGX_Wziqw&t=183. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "pascal-report",
+      "title": "Технический отчёт о Pascal",
+      "date": {
+        "start": "1970-11",
+        "end": null,
+        "precision": "month",
+        "basis": "publication"
+      },
+      "year": 1970,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "niklaus-wirth"
+      ],
+      "orgs": [
+        "eth-zurich"
+      ],
+      "status": "draft",
+      "sources": [
+        "wirth-pascal-1970",
+        "wirth-projects-history"
+      ],
+      "text": "Вирт публикует технический отчёт о языке Pascal.",
+      "problem": "Как совместить структурированное программирование, типы и эффективную реализацию?",
+      "meaning": "Pascal становится одной из ветвей развития алгоритмических языков.",
+      "note": "Дата относится к отчёту ETH. Разработка языка и его реализаций охватывает несколько лет; это не единая дата всех релизов.",
+      "more": ""
+    },
+    {
+      "id": "c-language-development",
+      "title": "От B к языку C",
+      "date": {
+        "start": "1971",
+        "end": "1973",
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1971,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "dennis-ritchie"
+      ],
+      "orgs": [
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "ritchie-c-history"
+      ],
+      "text": "Ритчи преобразует B в C, добавляя типы и развивая компилятор.",
+      "problem": "Как приспособить небольшой системный язык к аппаратуре с байтовой адресацией и новым задачам?",
+      "meaning": "C связывает системное программирование с более выразительной моделью данных.",
+      "note": "Показан период 1971–1973 по авторской истории. Это не дата стандарта ANSI C или публикации книги Кернигана и Ритчи.",
+      "more": ""
+    },
+    {
       "id": "micro",
       "title": "Микропроцессор 4004",
       "date": {
@@ -638,12 +2549,42 @@
       ],
       "status": "draft",
       "sources": [
-        "silicon"
+        "silicon",
+        "wesling-valley-origins"
       ],
       "text": "Intel представляет 4004 — коммерческий однокристальный микропроцессор.",
       "problem": "Как реализовать вычислительные функции в компактной программируемой схеме?",
       "meaning": "Процессор становится отдельным массово производимым компонентом.",
-      "note": "",
+      "note": "Лекция кратко выделяет Теда Хоффа; карточка сохраняет также Федерико Фаджина, Стэнли Мазора и Масатоси Симу. Авторство архитектуры, схем, реализации и программного обеспечения не следует сводить к одному человеку.",
+      "more": "Stanford: 00:45:02–00:45:59."
+    },
+    {
+      "id": "prolog-origin",
+      "title": "Ранний Prolog",
+      "date": {
+        "start": "1972",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1972,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "alain-colmerauer",
+        "philippe-roussel"
+      ],
+      "orgs": [],
+      "status": "draft",
+      "sources": [
+        "prolog-historical-archive"
+      ],
+      "text": "В работе марсельской группы над языком и обработкой естественной речи формируется Prolog.",
+      "problem": "Как описывать задачи правилами и организовать поиск подходящих решений?",
+      "meaning": "Логическое программирование получает рабочую языковую форму.",
+      "note": "Общая идея логического программирования и Prolog не приписываются только двум людям. Полный состав и вклад логиков требуют отдельных карточек.",
       "more": ""
     },
     {
@@ -656,8 +2597,9 @@
         "basis": "version"
       },
       "year": 1972,
-      "topic": "oop",
+      "topic": "lang",
       "topics": [
+        "lang",
         "oop"
       ],
       "people": [
@@ -675,7 +2617,126 @@
       "text": "Команда PARC развивает среду персональных вычислений вокруг объектов и обмена сообщениями.",
       "problem": "Как сделать вычислительную среду понятной, интерактивной и расширяемой?",
       "meaning": "Ранний Smalltalk связывает язык и живую среду для пользователя.",
-      "note": "1972 обозначает раннюю версию Smalltalk-72. Участники и идеи развивались на протяжении нескольких лет.",
+      "note": "1972 обозначает раннюю версию Smalltalk-72. Участники и идеи развивались на протяжении нескольких лет. По Кею, наследование как встроенная возможность было опущено в Smalltalk-72; его позднейшая форма выделена в Smalltalk-76.",
+      "more": ""
+    },
+    {
+      "id": "amd-ipo",
+      "title": "AMD выходит на биржу",
+      "date": {
+        "start": "1972-09-27",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1972,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [],
+      "orgs": [
+        "amd"
+      ],
+      "status": "draft",
+      "sources": [
+        "amd-corporate-faq",
+        "prohitech-amd-history"
+      ],
+      "text": "AMD проводит первичное публичное размещение акций.",
+      "problem": "Как привлечь капитал для расширения компании?",
+      "meaning": "Финансирование становится частью истории роста полупроводникового производителя.",
+      "note": "IPO 1972 и начало торгов на NYSE в 1979 — разные события. Объём выпуска и выручка здесь не пересказываются по видео.",
+      "more": "Видео: 00:08:01–00:08:39. Ссылка на фрагмент: https://www.youtube.com/watch?v=YRvGX_Wziqw&t=481. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "ml-lcf",
+      "title": "ML как метаязык LCF",
+      "date": {
+        "start": "1973",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1973,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "robin-milner"
+      ],
+      "orgs": [
+        "university-of-edinburgh"
+      ],
+      "status": "draft",
+      "sources": [
+        "ml-hopliv-history"
+      ],
+      "text": "Группа Милнера в Эдинбурге начинает развитие ML в составе системы доказательства теорем LCF.",
+      "problem": "Как программировать управление построением доказательств и сохранять дисциплину типов?",
+      "meaning": "Работа над доказательствами становится источником отдельного семейства языков.",
+      "note": "Это начало эдинбургского этапа, не выпуск позднего Standard ML и не дата окончательной спецификации.",
+      "more": ""
+    },
+    {
+      "id": "unix-c",
+      "title": "Ядро Unix переписывают на C",
+      "date": {
+        "start": "1973",
+        "end": null,
+        "precision": "year",
+        "basis": "version"
+      },
+      "year": 1973,
+      "topic": "os",
+      "topics": [
+        "os",
+        "lang"
+      ],
+      "people": [
+        "dennis-ritchie",
+        "ken-thompson"
+      ],
+      "orgs": [
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "ritchie-unix-evolution"
+      ],
+      "text": "Ядро Unix переписывают преимущественно на языке C.",
+      "problem": "Как развивать системное ПО с меньшей зависимостью от ассемблера конкретной машины?",
+      "meaning": "Новая реализация облегчает дальнейшее развитие и переносы системы.",
+      "note": "Переписывание не означает немедленную переносимость на любое оборудование: аппаратно-зависимые части сохраняются.",
+      "more": ""
+    },
+    {
+      "id": "cpm-prototype",
+      "title": "Прототип CP/M",
+      "date": {
+        "start": "1974",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1974,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "gary-kildall"
+      ],
+      "orgs": [],
+      "status": "draft",
+      "sources": [
+        "kildall-cpm-history"
+      ],
+      "text": "Килдалл демонстрирует работающий прототип CP/M на микрокомпьютере.",
+      "problem": "Как предоставить программам доступ к диску и системным функциям на небольших машинах?",
+      "meaning": "Возникает важная линия системного ПО для ранних микрокомпьютеров.",
+      "note": "Демонстрация относится к осени 1974. Не подменяется датой основания Digital Research или поздней массовой версией CP/M; конкретный месяц не установлен.",
       "more": ""
     },
     {
@@ -711,6 +2772,260 @@
       "more": ""
     },
     {
+      "id": "homebrew-first-meeting",
+      "title": "Первая встреча Homebrew Computer Club",
+      "date": {
+        "start": "1975-03-05",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1975,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "gordon-french",
+        "fred-moore"
+      ],
+      "orgs": [
+        "homebrew-computer-club"
+      ],
+      "status": "draft",
+      "sources": [
+        "homebrew-newsletter-1976",
+        "wesling-valley-origins"
+      ],
+      "text": "Гордон Френч и Фред Мур организуют первую встречу клуба любителей компьютеров.",
+      "problem": "Где обмениваться схемами, программами и опытом сборки доступных компьютеров?",
+      "meaning": "Сообщество становится местом передачи практических знаний вне формальной организации.",
+      "note": "Лекция начинает рассказ с сюжета 1976 года; это не год основания клуба. Дата 5 марта 1975 взята из собственного бюллетеня клуба 1976 года.",
+      "more": "Видео: 00:00:51–00:02:30. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=51. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "scheme-first-report",
+      "title": "Первый отчёт Scheme",
+      "date": {
+        "start": "1975-12",
+        "end": null,
+        "precision": "month",
+        "basis": "publication"
+      },
+      "year": 1975,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "gerald-sussman",
+        "guy-steele"
+      ],
+      "orgs": [
+        "mit"
+      ],
+      "status": "draft",
+      "sources": [
+        "scheme-1975-report"
+      ],
+      "text": "Сассман и Стил публикуют MIT AI Memo 349 с описанием Scheme.",
+      "problem": "Как на небольшой Lisp-подобной основе исследовать вычисления и управление потоком выполнения?",
+      "meaning": "Scheme становится экспериментальной ветвью семейства Lisp.",
+      "note": "Первый отчёт относится к декабрю 1975; его нельзя заменять датой переработанного отчёта 1978. Влияние Actors отмечено самими авторами.",
+      "more": ""
+    },
+    {
+      "id": "apple-one",
+      "title": "Apple I: от проекта к продукту",
+      "date": {
+        "start": "1976",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1976,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [
+        "steve-wozniak",
+        "steve-jobs"
+      ],
+      "orgs": [
+        "apple-computer",
+        "homebrew-computer-club"
+      ],
+      "status": "draft",
+      "sources": [
+        "chm-apple-history",
+        "wesling-valley-origins"
+      ],
+      "text": "Apple начинает продавать одноплатный компьютер Apple I, разработанный Возняком.",
+      "problem": "Как сделать собственный компьютер доступным другим энтузиастам?",
+      "meaning": "Клубная среда и коммерческая инициатива соединяются в истории раннего персонального компьютера.",
+      "note": "Apple I не называется первым персональным компьютером вообще. Указаны участники конкретного сюжета, а не исчерпывающий список основателей Apple.",
+      "more": "Видео: 00:00:51–00:02:30. Ссылка на фрагмент: https://www.youtube.com/watch?v=lRDB_W6POys&t=51. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "smalltalk-76",
+      "title": "Smalltalk-76: новое наследование",
+      "date": {
+        "start": "1976",
+        "end": null,
+        "precision": "year",
+        "basis": "version"
+      },
+      "year": 1976,
+      "topic": "lang",
+      "topics": [
+        "lang",
+        "oop"
+      ],
+      "people": [
+        "dan-ingalls",
+        "alan-kay",
+        "adele-goldberg"
+      ],
+      "orgs": [
+        "xerox-parc"
+      ],
+      "status": "draft",
+      "sources": [
+        "kay",
+        "muratori-big-oops-2025"
+      ],
+      "text": "При переработке Smalltalk Ингаллс вводит механизм наследования, допускающий интерактивные изменения.",
+      "problem": "Как совместить наследование с живой средой разработки?",
+      "meaning": "Становится видна разница между ранним Smalltalk-72 и более поздней системой.",
+      "note": "Кей пишет, что наследование как встроенная возможность было сознательно опущено в Smalltalk-72. Раздел V, Inheritance.",
+      "more": "Связанный фрагмент доклада Муратори: 00:13:01–00:16:10; 01:41:03–01:44:59. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "berkeley-first-distribution",
+      "title": "Первая сборка Berkeley Software Distribution",
+      "date": {
+        "start": "1977",
+        "end": null,
+        "precision": "year",
+        "basis": "version"
+      },
+      "year": 1977,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "bill-joy"
+      ],
+      "orgs": [
+        "uc-berkeley"
+      ],
+      "status": "draft",
+      "sources": [
+        "mckusick-berkeley-history"
+      ],
+      "text": "Билл Джой собирает первую Berkeley Software Distribution с Pascal и редактором ex.",
+      "problem": "Как передавать другим пользователям Unix полезные дополнения и инструменты?",
+      "meaning": "Рассылка университетского ПО становится началом линии BSD.",
+      "note": "По Маккьюсику, сборка относится к началу 1977; даты последующих лент и распространения могут отличаться. Ранняя BSD — дополнения к Unix, а не полностью независимая от него система.",
+      "more": ""
+    },
+    {
+      "id": "c-with-classes",
+      "title": "C with Classes: работает Cpre",
+      "date": {
+        "start": "1979-10",
+        "end": null,
+        "precision": "month",
+        "basis": "event"
+      },
+      "year": 1979,
+      "topic": "lang",
+      "topics": [
+        "lang",
+        "oop"
+      ],
+      "people": [
+        "bjarne-stroustrup"
+      ],
+      "orgs": [
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "stroustrup-history",
+        "muratori-big-oops-2025"
+      ],
+      "text": "Страуструп сообщает о работающем Cpre, добавляющем к C классы в духе Simula.",
+      "problem": "Как соединить организацию программы с эффективностью C?",
+      "meaning": "Возникает непосредственный предшественник C++.",
+      "note": "Стадия C with Classes не тождественна позднейшему C++ с виртуальными функциями.",
+      "more": "Связанный фрагмент доклада Муратори: 00:25:56–00:31:20. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "pc-dos",
+      "title": "PC DOS для IBM PC",
+      "date": {
+        "start": "1981",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1981,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "tim-paterson"
+      ],
+      "orgs": [
+        "ibm",
+        "microsoft"
+      ],
+      "status": "draft",
+      "sources": [
+        "chm-dos-history",
+        "microsoft-dos-preservation"
+      ],
+      "text": "Microsoft поставляет для IBM PC систему PC DOS, происходящую от 86-DOS.",
+      "problem": "Как быстро обеспечить новый персональный компьютер системным ПО и файловыми операциями?",
+      "meaning": "DOS становится частью платформы IBM PC и последующего рынка совместимых машин.",
+      "note": "PC DOS и MS-DOS — связанные названия и продуктовые линии; карточка не называет архивную MS-DOS 1.1 первой версией 1981. История CP/M не сводится к неподтверждённому рассказу о единственной встрече с IBM.",
+      "more": ""
+    },
+    {
+      "id": "intel-amd-agreement",
+      "title": "AMD и Intel: обмен технологиями",
+      "date": {
+        "start": "1982-02",
+        "end": null,
+        "precision": "month",
+        "basis": "event"
+      },
+      "year": 1982,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [],
+      "orgs": [
+        "amd",
+        "intel"
+      ],
+      "status": "draft",
+      "sources": [
+        "amd-intel-arbitration",
+        "prohitech-amd-history"
+      ],
+      "text": "AMD и Intel заключают десятилетнее соглашение об обмене технологиями.",
+      "problem": "Как организовать обмен разработками и выпуск совместимых продуктов?",
+      "meaning": "Сотрудничество становится контекстом последующего спора о правах и выполнении обязательств.",
+      "note": "Соглашение не означает безусловного бессрочного права копировать любой продукт Intel. Детали договора и последующие арбитражные решения различаются.",
+      "more": "Видео: 00:11:02–00:17:02. Ссылка на фрагмент: https://www.youtube.com/watch?v=YRvGX_Wziqw&t=662. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
       "id": "tcpip",
       "title": "Переход на TCP/IP",
       "date": {
@@ -744,6 +3059,132 @@
       "more": ""
     },
     {
+      "id": "bsd42",
+      "title": "4.2BSD: Unix с сетевым стеком",
+      "date": {
+        "start": "1983-08",
+        "end": null,
+        "precision": "month",
+        "basis": "version"
+      },
+      "year": 1983,
+      "topic": "os",
+      "topics": [
+        "os",
+        "net"
+      ],
+      "people": [
+        "sam-leffler"
+      ],
+      "orgs": [
+        "uc-berkeley",
+        "darpa",
+        "bbn"
+      ],
+      "status": "draft",
+      "sources": [
+        "mckusick-berkeley-history"
+      ],
+      "text": "Выходит 4.2BSD с интегрированной сетевой поддержкой и новым файловым хозяйством.",
+      "problem": "Как дать Unix-машинам системные средства сетевого взаимодействия?",
+      "meaning": "TCP/IP и сокеты входят в широко распространяемую университетскую систему.",
+      "note": "Это реализация и распространение сетевых механизмов, а не изобретение Интернета в августе 1983. Роли Berkeley, BBN и DARPA различаются.",
+      "more": ""
+    },
+    {
+      "id": "cpp",
+      "title": "C++: внутреннее применение",
+      "date": {
+        "start": "1983-08",
+        "end": null,
+        "precision": "month",
+        "basis": "version"
+      },
+      "year": 1983,
+      "topic": "lang",
+      "topics": [
+        "lang",
+        "oop"
+      ],
+      "people": [
+        "bjarne-stroustrup"
+      ],
+      "orgs": [
+        "bell-labs"
+      ],
+      "status": "draft",
+      "sources": [
+        "stroustrup-faq",
+        "stroustrup-history",
+        "muratori-big-oops-2025"
+      ],
+      "text": "По FAQ Страуструпа, первая версия C++ используется внутри AT&T в августе 1983 года.",
+      "problem": "Как развить C with Classes для реальных проектов?",
+      "meaning": "Выделяется отдельный этап развития языка.",
+      "note": "Коммерческий выпуск относится к октябрю 1985 года. Внутреннее использование нельзя называть коммерческим релизом.",
+      "more": "Связанный фрагмент доклада Муратори: 00:30:39–00:31:20. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
+    },
+    {
+      "id": "gnu-announcement",
+      "title": "Объявлен проект GNU",
+      "date": {
+        "start": "1983-09-27",
+        "end": null,
+        "precision": "day",
+        "basis": "publication"
+      },
+      "year": 1983,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "richard-stallman"
+      ],
+      "orgs": [
+        "gnu-project"
+      ],
+      "status": "draft",
+      "sources": [
+        "gnu-initial-announcement"
+      ],
+      "text": "Столлман объявляет план создания свободной Unix-совместимой системы GNU.",
+      "problem": "Как дать пользователям возможность изучать, изменять и распространять системное ПО?",
+      "meaning": "Условия распространения становятся частью архитектуры сообщества вокруг системы.",
+      "note": "Объявление 1983 и начало работы в январе 1984 — разные этапы. GNU не является ядром Linux; Free Software Foundation тогда ещё не была создана.",
+      "more": ""
+    },
+    {
+      "id": "macintosh-system",
+      "title": "Macintosh: системная среда с GUI",
+      "date": {
+        "start": "1984-01-24",
+        "end": null,
+        "precision": "day",
+        "basis": "event"
+      },
+      "year": 1984,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "steve-jobs"
+      ],
+      "orgs": [
+        "apple-computer"
+      ],
+      "status": "draft",
+      "sources": [
+        "macintosh-first-release"
+      ],
+      "text": "Apple представляет Macintosh со встроенной графической средой, меню и управлением мышью.",
+      "problem": "Как сделать работу с программами и файлами доступной через визуальные действия?",
+      "meaning": "Персональная системная среда объединяет экранный рабочий стол, приложения и управление файлами.",
+      "note": "Карточка описывает выпуск компьютера вместе с его системной средой. Это не первый GUI в истории; название Mac OS и архитектура позднейшего Mac OS X не переносятся на 1984.",
+      "more": ""
+    },
+    {
       "id": "web",
       "title": "Предложение Web",
       "date": {
@@ -771,6 +3212,99 @@
       "problem": "Как исследователям находить и связывать распределённую информацию?",
       "meaning": "Поверх Интернета возникает новый способ обмена знаниями.",
       "note": "",
+      "more": ""
+    },
+    {
+      "id": "am386",
+      "title": "Am386: совместимость и спор о правах",
+      "date": {
+        "start": "1991",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1991,
+      "topic": "chip",
+      "topics": [
+        "chip"
+      ],
+      "people": [],
+      "orgs": [
+        "amd",
+        "intel"
+      ],
+      "status": "draft",
+      "sources": [
+        "amd-am386-annual",
+        "amd-intel-arbitration",
+        "prohitech-amd-history"
+      ],
+      "text": "AMD выводит Am386 на рынок на фоне продолжающегося спора с Intel.",
+      "problem": "Как поставлять совместимые x86-процессоры при конфликте о договорных обязательствах?",
+      "meaning": "История процессора показывает связь инженерии, лицензирования и судебных процедур.",
+      "note": "Начало продаж в 1991 не равно окончанию разбирательства. Решение арбитра о средствах защиты — февраль 1992; решение Верховного суда Калифорнии — 1994.",
+      "more": "Видео: 00:13:01–00:18:30. Ссылка на фрагмент: https://www.youtube.com/watch?v=YRvGX_Wziqw&t=781. Источники карточки перечислены в метаданных; таймкод относится к пересказу в видео, а не ко всем уточнениям из документов."
+    },
+    {
+      "id": "linux-001",
+      "title": "Linux 0.01: раннее ядро",
+      "date": {
+        "start": "1991",
+        "end": null,
+        "precision": "year",
+        "basis": "version"
+      },
+      "year": 1991,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "linus-torvalds"
+      ],
+      "orgs": [
+        "linux-project"
+      ],
+      "status": "draft",
+      "sources": [
+        "linux-001-notes",
+        "linux-012-notes"
+      ],
+      "text": "Торвальдс распространяет исходники раннего Linux для i386.",
+      "problem": "Как создать собственное Unix-подобное ядро для доступного персонального компьютера?",
+      "meaning": "Открытая публикация исходников позволяет другим людям изучать и развивать ядро.",
+      "note": "Linux здесь — ядро. GCC и Bash уже используются вместе с ним; это не доказательство, что GNU и Linux — один проект. Версия 0.01 имела первоначальные условия распространения; переход к GNU copyleft отражён в 0.12. Точная дата выпуска в этой карточке не установлена.",
+      "more": ""
+    },
+    {
+      "id": "python-first-public",
+      "title": "Первая публичная версия Python",
+      "date": {
+        "start": "1991-02",
+        "end": null,
+        "precision": "month",
+        "basis": "version"
+      },
+      "year": 1991,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "guido-van-rossum"
+      ],
+      "orgs": [
+        "cwi"
+      ],
+      "status": "draft",
+      "sources": [
+        "python-early-days",
+        "python-general-faq"
+      ],
+      "text": "Ван Россум публикует раннюю версию Python.",
+      "problem": "Как получить расширяемый язык для повседневных задач с учётом опыта ABC?",
+      "meaning": "Доступная публикация открывает путь к развитию языка за пределами первоначального коллектива.",
+      "note": "Начало реализации — декабрь 1989, публичная версия — февраль 1991. Здесь сохранена точность месяца без спорного номера раннего архива.",
       "more": ""
     },
     {
@@ -802,9 +3336,193 @@
       "meaning": "Открытость способствует широкому внедрению Web.",
       "note": "",
       "more": ""
+    },
+    {
+      "id": "windows-nt31",
+      "title": "Windows NT 3.1",
+      "date": {
+        "start": "1993-07-27",
+        "end": null,
+        "precision": "day",
+        "basis": "version"
+      },
+      "year": 1993,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [
+        "dave-cutler"
+      ],
+      "orgs": [
+        "microsoft"
+      ],
+      "status": "draft",
+      "sources": [
+        "microsoft-nt-cutler-history"
+      ],
+      "text": "Microsoft выпускает Windows NT 3.1 — первую версию новой линии NT.",
+      "problem": "Как построить систему с защищённой памятью, многозадачностью и переносимой архитектурой?",
+      "meaning": "У Windows появляется отдельная системная основа для рабочих станций и серверов.",
+      "note": "NT не является очередной версией ядра MS-DOS. Совпадающие номера Windows 3.1 и Windows NT 3.1 не означают одинаковую архитектуру.",
+      "more": ""
+    },
+    {
+      "id": "freebsd-10",
+      "title": "FreeBSD 1.0",
+      "date": {
+        "start": "1993-11-01",
+        "end": null,
+        "precision": "day",
+        "basis": "version"
+      },
+      "year": 1993,
+      "topic": "os",
+      "topics": [
+        "os"
+      ],
+      "people": [],
+      "orgs": [
+        "freebsd-project"
+      ],
+      "status": "draft",
+      "sources": [
+        "freebsd-10-announcement",
+        "freebsd-handbook-history"
+      ],
+      "text": "Проект FreeBSD объявляет первый официальный production release 1.0.",
+      "problem": "Как поддерживать доступную BSD-систему для персональных компьютеров?",
+      "meaning": "Линия Berkeley продолжается в самостоятельном общественном проекте.",
+      "note": "Преемственность проходит через Berkeley Net/2 и 386BSD, пока не представленные отдельными карточками. Это не прямое переименование 4.2BSD; юридические вопросы последующих выпусков рассматриваются отдельно.",
+      "more": ""
+    },
+    {
+      "id": "java-public-debut",
+      "title": "Публичный дебют Java",
+      "date": {
+        "start": "1995",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1995,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "james-gosling"
+      ],
+      "orgs": [
+        "sun-microsystems"
+      ],
+      "status": "draft",
+      "sources": [
+        "oracle-java-timeline",
+        "gosling-java-testimony",
+        "javascript-hopliv-history"
+      ],
+      "text": "Sun представляет Java на конференции SunWorld.",
+      "problem": "Как предложить язык и среду выполнения для программ на разных платформах?",
+      "meaning": "Проект, выросший из Green/Oak, получает публичную платформу распространения.",
+      "note": "Публичный дебют 1995 и выпуск JDK 1.0 в 1996 — разные этапы. Указана роль Гослинга; список разработчиков не является полным.",
+      "more": ""
+    },
+    {
+      "id": "javascript-announcement",
+      "title": "Анонс JavaScript",
+      "date": {
+        "start": "1995-12-04",
+        "end": null,
+        "precision": "day",
+        "basis": "publication"
+      },
+      "year": 1995,
+      "topic": "lang",
+      "topics": [
+        "lang"
+      ],
+      "people": [
+        "brendan-eich"
+      ],
+      "orgs": [
+        "netscape",
+        "sun-microsystems"
+      ],
+      "status": "draft",
+      "sources": [
+        "javascript-hopliv-history"
+      ],
+      "text": "Netscape и Sun объявляют JavaScript для браузерных сценариев.",
+      "problem": "Как добавить в веб-страницы программируемое поведение без тяжёлой модели приложения?",
+      "meaning": "Браузер получает язык для пользовательских сценариев и обработки событий.",
+      "note": "Прототип и LiveScript в бета-версии появились раньше. JavaScript — отдельный язык, не переименование Java; 4 декабря — дата совместного анонса.",
+      "more": ""
+    },
+    {
+      "id": "thief-dark-object-system",
+      "title": "Thief и Dark Object System",
+      "date": {
+        "start": "1998",
+        "end": null,
+        "precision": "year",
+        "basis": "event"
+      },
+      "year": 1998,
+      "topic": "oop",
+      "topics": [
+        "oop"
+      ],
+      "people": [
+        "marc-leblanc",
+        "tom-leonard"
+      ],
+      "orgs": [
+        "looking-glass-studios"
+      ],
+      "status": "draft",
+      "sources": [
+        "thief-postmortem-1999",
+        "muratori-big-oops-2025"
+      ],
+      "text": "В Thief используется Dark Object System: свойства и отношения объектов задаются и редактируются через общую систему данных.",
+      "problem": "Как дать дизайнерам управлять игровыми сущностями?",
+      "meaning": "Другой способ организации данных становится примером для архитектурного сравнения.",
+      "note": "Муратори сопоставляет эту систему с ECS. Её исторический приоритет не установлен этим разбором. Сходство со Sketchpad не доказывает прямого влияния.",
+      "more": "Связанный фрагмент доклада Муратори: 00:00:50–00:07:18; 02:03:00–02:11:59. Таймкоды получены из автоматических субтитров и требуют сверки при точном цитировании."
     }
   ],
   "LINKS": [
+    {
+      "id": "algol60-report--pascal-report",
+      "from": "algol60-report",
+      "to": "pascal-report",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Pascal продолжает алгоритмическую традицию ALGOL через работу Вирта. Между карточками пропущены ALGOL W и другие промежуточные проекты.",
+      "evidence": [
+        {
+          "source": "wirth-projects-history",
+          "locator": "Разделы ALGOL W и Pascal"
+        }
+      ]
+    },
+    {
+      "id": "algol60-report--simula-i",
+      "from": "algol60-report",
+      "to": "simula-i",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Ранняя Simula разрабатывалась с опорой на ALGOL 60. Это языковая преемственность, а не утверждение, что объекты уже были готовы в ALGOL.",
+      "evidence": [
+        {
+          "source": "simula-history-1978",
+          "locator": "Разделы о решении опираться на ALGOL 60 и реализации Simula I"
+        }
+      ]
+    },
     {
       "id": "arpanet--tcp",
       "from": "arpanet",
@@ -817,6 +3535,157 @@
         {
           "source": "internet",
           "locator": null
+        }
+      ]
+    },
+    {
+      "id": "b-language--c-language-development",
+      "from": "b-language",
+      "to": "c-language-development",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "C возникает при преобразовании B: добавляются типы и меняется реализация.",
+      "evidence": [
+        {
+          "source": "ritchie-c-history",
+          "locator": "Summary и Embryonic C: развитие в 1971–1973"
+        }
+      ]
+    },
+    {
+      "id": "bcpl-compiler--b-language",
+      "from": "bcpl-compiler",
+      "to": "b-language",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Томпсон использовал BCPL как основу для проектирования B.",
+      "evidence": [
+        {
+          "source": "ritchie-c-history",
+          "locator": "The language B: происхождение от BCPL"
+        }
+      ]
+    },
+    {
+      "id": "berkeley-first-distribution--bsd42",
+      "from": "berkeley-first-distribution",
+      "to": "bsd42",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Серия Berkeley Software Distribution развивается до 4.2BSD; между карточками пропущены несколько промежуточных выпусков.",
+      "evidence": [
+        {
+          "source": "mckusick-berkeley-history",
+          "locator": "Early History и 4.2BSD"
+        }
+      ]
+    },
+    {
+      "id": "bsd42--freebsd-10",
+      "from": "bsd42",
+      "to": "freebsd-10",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "FreeBSD продолжает ветвь BSD через Net/2 и 386BSD. Промежуточные этапы пока пропущены на карте.",
+      "evidence": [
+        {
+          "source": "freebsd-handbook-history",
+          "locator": "A Brief History of FreeBSD: 386BSD Patchkit и ранняя база Net/2"
+        },
+        {
+          "source": "mckusick-berkeley-history",
+          "locator": "История Berkeley Unix до Networking Release 2"
+        }
+      ]
+    },
+    {
+      "id": "c-language-development--c-with-classes",
+      "from": "c-language-development",
+      "to": "c-with-classes",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "C with Classes расширяет C средствами организации программы под влиянием Simula. Это соединение двух языковых линий.",
+      "evidence": [
+        {
+          "source": "stroustrup-history",
+          "locator": "Разделы 2.1–2.2, Prehistory и C with Classes"
+        }
+      ]
+    },
+    {
+      "id": "c-language-development--unix-c",
+      "from": "c-language-development",
+      "to": "unix-c",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Развитие C позволяет переписать на нём ядро Unix в 1973. Разработка языка и перенос системы показаны разными событиями.",
+      "evidence": [
+        {
+          "source": "ritchie-c-history",
+          "locator": "Разделы о развитии C и Unix"
+        },
+        {
+          "source": "ritchie-unix-evolution",
+          "locator": "Переписывание ядра на C в 1973"
+        }
+      ]
+    },
+    {
+      "id": "c-with-classes--cpp",
+      "from": "c-with-classes",
+      "to": "cpp",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "C++ развивается из C with Classes; между этапами меняются реализация и набор возможностей.",
+      "evidence": [
+        {
+          "source": "stroustrup-history",
+          "locator": "Раздел 3, From C with Classes to C++"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:30:39–00:31:20"
+        }
+      ]
+    },
+    {
+      "id": "ctss-demo--multics-project",
+      "from": "ctss-demo",
+      "to": "multics-project",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Опыт CTSS становится отправной точкой более масштабной разработки Multics.",
+      "evidence": [
+        {
+          "source": "multics-first-seven-years",
+          "locator": "History of the Development: опыт CTSS и цели новой системы"
+        }
+      ]
+    },
+    {
+      "id": "fairchild--amd-foundation",
+      "from": "fairchild",
+      "to": "amd-foundation",
+      "type": "people",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Выходцы из Fairchild, включая Джерри Сандерса, создают AMD. Это передача опыта через карьерный переход, а не корпоративное владение AMD со стороны Fairchild.",
+      "evidence": [
+        {
+          "source": "chm-fairchildren",
+          "locator": "Раздел Advanced Micro Devices, Sunnyvale, CA (1969)"
+        },
+        {
+          "source": "prohitech-amd-history",
+          "locator": "00:03:03–00:04:43"
         }
       ]
     },
@@ -851,6 +3720,78 @@
       ]
     },
     {
+      "id": "federal-telegraph-foundation--deforest-amplifier",
+      "from": "federal-telegraph-foundation",
+      "to": "deforest-amplifier",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Лаборатория Federal Telegraph становится местом работы де Фореста над ламповым усилением.",
+      "evidence": [
+        {
+          "source": "deforest-1958-recording",
+          "locator": "Аннотация записи: воспоминание о Palo Alto laboratory в 1912"
+        },
+        {
+          "source": "wesling-valley-origins",
+          "locator": "00:03:00–00:04:30"
+        }
+      ]
+    },
+    {
+      "id": "gnu-announcement--linux-001",
+      "from": "gnu-announcement",
+      "to": "linux-001",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "При сборке и использовании раннего Linux применяются GNU-инструменты GCC и Bash. Связь обозначает совместное использование компонентов, а не разработку Linux внутри проекта GNU.",
+      "evidence": [
+        {
+          "source": "linux-001-notes",
+          "locator": "Short intro: gcc; список bash.Z и описание пользовательских программ"
+        }
+      ]
+    },
+    {
+      "id": "hoare-record-handling--simula",
+      "from": "hoare-record-handling",
+      "to": "simula",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Разработчики прямо описывают роль предложений Хоара о классах записей и подклассах в развитии Simula 67.",
+      "evidence": [
+        {
+          "source": "simula-history-1978",
+          "locator": "Разделы 3.1–3.2; библиография: Hoare (1965), Hoare (1966)"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:42:02–00:47:59"
+        }
+      ]
+    },
+    {
+      "id": "homebrew-first-meeting--apple-one",
+      "from": "homebrew-first-meeting",
+      "to": "apple-one",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Лекция связывает Apple I с обменом знаниями в Homebrew и намерением Возняка поделиться своим компьютером. Это описание роли сообщества, не утверждение о создании компьютера всем клубом.",
+      "evidence": [
+        {
+          "source": "wesling-valley-origins",
+          "locator": "00:00:51–00:02:30"
+        },
+        {
+          "source": "chm-apple-history",
+          "locator": "Раздел Apple Computer: Apple I, 1976"
+        }
+      ]
+    },
+    {
       "id": "intel--micro",
       "from": "intel",
       "to": "micro",
@@ -862,6 +3803,44 @@
         {
           "source": "silicon",
           "locator": null
+        }
+      ]
+    },
+    {
+      "id": "intel-amd-agreement--am386",
+      "from": "intel-amd-agreement",
+      "to": "am386",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Спор о выполнении соглашения 1982 связан с доступом AMD к следующим поколениям Intel и выпуском совместимого Am386. Связь показывает договорный контекст разработки, а не безусловное разрешение копирования.",
+      "evidence": [
+        {
+          "source": "amd-intel-arbitration",
+          "locator": "История технологического соглашения февраля 1982 и арбитража"
+        },
+        {
+          "source": "prohitech-amd-history",
+          "locator": "00:13:01–00:18:30"
+        }
+      ]
+    },
+    {
+      "id": "klystron-demonstration--varian-foundation",
+      "from": "klystron-demonstration",
+      "to": "varian-foundation",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Клистрон, продемонстрированный в Stanford в 1937, становится первым коммерческим продуктом Varian Associates после её основания в 1948.",
+      "evidence": [
+        {
+          "source": "stanford-ginzton-history",
+          "locator": "Early Development: клистрон 1937"
+        },
+        {
+          "source": "cpi-electronics-history",
+          "locator": "1948: Varian Associates и первый коммерческий продукт"
         }
       ]
     },
@@ -881,6 +3860,89 @@
       ]
     },
     {
+      "id": "lisp-implementation--scheme-first-report",
+      "from": "lisp-implementation",
+      "to": "scheme-first-report",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Авторы Scheme прямо описывают его как Lisp-подобный язык; при этом указывают также влияние Actors.",
+      "evidence": [
+        {
+          "source": "scheme-1975-report",
+          "locator": "Abstract и introduction"
+        }
+      ]
+    },
+    {
+      "id": "multics-project--unix-origin",
+      "from": "multics-project",
+      "to": "unix-origin",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Разработчики Unix участвовали в работе с Multics; Ритчи описывает влияние этого опыта после выхода Bell Labs из проекта. Это преемственность опыта и отдельных идей, не копирование всей системы.",
+      "evidence": [
+        {
+          "source": "ritchie-unix-evolution",
+          "locator": "Введение и ранняя история: прекращение участия Bell Labs в Multics"
+        }
+      ]
+    },
+    {
+      "id": "ross-plex--hoare-record-handling",
+      "from": "ross-plex",
+      "to": "hoare-record-handling",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Авторы предисловия 2003 года сообщают о влиянии работ Росса на Хоара, ссылаясь на личное сообщение Хоара; исходная переписка не найдена.",
+      "evidence": [
+        {
+          "source": "sketchpad-preface-2003",
+          "locator": "Стр. 4 переиздания: абзац о Ross, Hoare и Simula; сноска Personal communication with C. A. R. Hoare"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:51:01–00:53:35"
+        }
+      ]
+    },
+    {
+      "id": "ross-plex--sketchpad",
+      "from": "ross-plex",
+      "to": "sketchpad",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Сазерленд отмечает помощь Росса с n-компонентными элементами. Связь показывает передачу подхода, а не доказанное чтение именно статьи 1961 года.",
+      "evidence": [
+        {
+          "source": "sketchpad-1963",
+          "locator": "Глава II, History of Sketchpad: помощь Electronic Systems Laboratory и Douglas Ross с n-component elements"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "01:12:50–01:16:00"
+        }
+      ]
+    },
+    {
+      "id": "scheme-first-report--javascript-announcement",
+      "from": "scheme-first-report",
+      "to": "javascript-announcement",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "В ранний JavaScript вошли Scheme-подобные подходы к функциям как значениям. Это влияние отдельных идей, а не реализация Scheme под другим именем.",
+      "evidence": [
+        {
+          "source": "javascript-hopliv-history",
+          "locator": "Разделы раннего дизайна: Scheme-inspired idioms и first-class functions"
+        }
+      ]
+    },
+    {
       "id": "shockley--fairchild",
       "from": "shockley",
       "to": "fairchild",
@@ -896,17 +3958,89 @@
       ]
     },
     {
-      "id": "simula--smalltalk",
+      "id": "simula--c-with-classes",
       "from": "simula",
+      "to": "c-with-classes",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Опыт Страуструпа с Simula влияет на средства организации программы в C with Classes.",
+      "evidence": [
+        {
+          "source": "stroustrup-history",
+          "locator": "Разделы 2.1 Prehistory и 2.2 C with Classes"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:17:13–00:31:20"
+        }
+      ]
+    },
+    {
+      "id": "simula--smalltalk-76",
+      "from": "simula",
+      "to": "smalltalk-76",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Кей описывает семантику наследования Smalltalk-76 как Simula-подобную, адаптированную для интерактивных изменений.",
+      "evidence": [
+        {
+          "source": "kay",
+          "locator": "Раздел V, Inheritance: сравнение Simula-67 и решения Dan Ingalls"
+        }
+      ]
+    },
+    {
+      "id": "simula-i--simula",
+      "from": "simula-i",
+      "to": "simula",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Обобщение и ограничения ранней Simula I становятся отправной точкой Simula 67.",
+      "evidence": [
+        {
+          "source": "simula-history-1978",
+          "locator": "Раздел 3.1, From SIMULA I to SIMULA 67"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:35:00–00:38:59"
+        }
+      ]
+    },
+    {
+      "id": "simula-i--smalltalk",
+      "from": "simula-i",
       "to": "smalltalk",
       "type": "idea",
       "certainty": "supported",
       "status": "draft",
-      "text": "Кей знакомится с Simula; объекты становятся частью его исследовательской программы.",
+      "text": "Кей связывает формирование своих идей в 1966 году с ранней Simula и Sketchpad. Это не перенос готового наследования Simula 67 в Smalltalk-72.",
       "evidence": [
         {
           "source": "kay",
-          "locator": null
+          "locator": "Раздел I, Sketchpad and Simula: осень 1966, activities и processes"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:53:43–00:54:59"
+        }
+      ]
+    },
+    {
+      "id": "simula-letter--simula-i",
+      "from": "simula-letter",
+      "to": "simula-i",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Датированное описание замысла и последующая реализация относятся к одной линии разработки Simula I.",
+      "evidence": [
+        {
+          "source": "simula-history-1978",
+          "locator": "Разделы 2.1 (Early History) и 2.5 (Relations to UNIVAC)"
         }
       ]
     },
@@ -921,7 +4055,41 @@
       "evidence": [
         {
           "source": "kay",
-          "locator": null
+          "locator": "Раздел I, Sketchpad and Simula: получение диссертации Сазерленда в 1966 году"
+        },
+        {
+          "source": "muratori-big-oops-2025",
+          "locator": "00:53:43–00:54:59"
+        }
+      ]
+    },
+    {
+      "id": "smalltalk--smalltalk-76",
+      "from": "smalltalk",
+      "to": "smalltalk-76",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Smalltalk-76 перерабатывает раннюю систему и вводит новое устройство языка.",
+      "evidence": [
+        {
+          "source": "kay",
+          "locator": "Раздел V, The first modern Smalltalk (-76), и подраздел Inheritance"
+        }
+      ]
+    },
+    {
+      "id": "tcp--bsd42",
+      "from": "tcp",
+      "to": "bsd42",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "4.2BSD включает реализацию TCP/IP и средства сетевого программирования. Это внедрение семейства протоколов в ОС, не повторное изобретение протокола.",
+      "evidence": [
+        {
+          "source": "mckusick-berkeley-history",
+          "locator": "4.2BSD: TCP/IP, вклад BBN, поддержка сетей и sockets"
         }
       ]
     },
@@ -967,6 +4135,51 @@
         {
           "source": "silicon",
           "locator": null
+        }
+      ]
+    },
+    {
+      "id": "unix-c--berkeley-first-distribution",
+      "from": "unix-c",
+      "to": "berkeley-first-distribution",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "BSD начинается как набор дополнений для Unix, пришедшего в Berkeley. Связь показывает преемственность системы, а не утверждает, что одна смена языка сама вызвала создание BSD.",
+      "evidence": [
+        {
+          "source": "mckusick-berkeley-history",
+          "locator": "Early History: Sixth Edition Unix и первая Berkeley Software Distribution"
+        }
+      ]
+    },
+    {
+      "id": "unix-origin--gnu-announcement",
+      "from": "unix-origin",
+      "to": "gnu-announcement",
+      "type": "idea",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "GNU объявлен Unix-совместимой системой, которую предлагается разработать и распространять на свободных условиях. Совместимость не означает происхождение исходного кода от Unix.",
+      "evidence": [
+        {
+          "source": "gnu-initial-announcement",
+          "locator": "Who am I? и Why I must write GNU: цели Unix compatibility"
+        }
+      ]
+    },
+    {
+      "id": "unix-origin--unix-c",
+      "from": "unix-origin",
+      "to": "unix-c",
+      "type": "tech",
+      "certainty": "supported",
+      "status": "draft",
+      "text": "Ранняя Unix развивается до реализации ядра на C в 1973.",
+      "evidence": [
+        {
+          "source": "ritchie-unix-evolution",
+          "locator": "Раздел о high-level languages: переписывание ядра в 1973"
         }
       ]
     },

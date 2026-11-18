@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Дуглас Росс"
+schema: niti/v1
+kind: person
+id: douglas-ross
+title: Дуглас Росс
 aliases: []
-id: "douglas-ross"
 ---
 
 # Дуглас Росс

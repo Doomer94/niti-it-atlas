@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "MIT"
+schema: niti/v1
+kind: organization
+id: mit
+title: MIT
 aliases: []
-id: "mit"
 ---
 
 # MIT

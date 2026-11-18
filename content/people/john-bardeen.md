@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Джон Бардин"
+schema: niti/v1
+kind: person
+id: john-bardeen
+title: Джон Бардин
 aliases: []
-id: "john-bardeen"
 ---
 
 # Джон Бардин

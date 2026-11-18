@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Масатоси Сима"
+schema: niti/v1
+kind: person
+id: masatoshi-shima
+title: Масатоси Сима
 aliases: []
-id: "masatoshi-shima"
 ---
 
 # Масатоси Сима

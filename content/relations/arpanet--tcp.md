@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "arpanet"
-to: "tcp"
-type: "idea"
-certainty: "interpretation"
-status: "draft"
-evidence: [{"source":"internet","locator":null}]
-id: "arpanet--tcp"
+schema: niti/v1
+kind: relation
+id: arpanet--tcp
+from: arpanet
+to: tcp
+type: idea
+certainty: interpretation
+status: draft
+evidence:
+  - source: internet
+    locator: null
 ---
 
 # arpanet → tcp

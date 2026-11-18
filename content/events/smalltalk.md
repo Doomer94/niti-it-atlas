@@ -1,14 +1,25 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Smalltalk-72"
-date: {"start":"1972","end":null,"precision":"year","basis":"version"}
-topics: ["oop"]
-people: ["alan-kay","dan-ingalls","adele-goldberg"]
-organizations: ["xerox-parc"]
-status: "draft"
-sources: ["kay"]
-id: "smalltalk"
+schema: niti/v1
+kind: event
+id: smalltalk
+title: Smalltalk-72
+date:
+  start: "1972"
+  end: null
+  precision: year
+  basis: version
+topics:
+  - lang
+  - oop
+people:
+  - alan-kay
+  - dan-ingalls
+  - adele-goldberg
+organizations:
+  - xerox-parc
+status: draft
+sources:
+  - kay
 ---
 
 # Smalltalk-72
@@ -27,4 +38,4 @@ id: "smalltalk"
 
 ## Примечание
 
-1972 обозначает раннюю версию Smalltalk-72. Участники и идеи развивались на протяжении нескольких лет.
+1972 обозначает раннюю версию Smalltalk-72. Участники и идеи развивались на протяжении нескольких лет. По Кею, наследование как встроенная возможность было опущено в Smalltalk-72; его позднейшая форма выделена в Smalltalk-76.

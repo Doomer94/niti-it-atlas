@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "ARPANET"
+schema: niti/v1
+kind: organization
+id: arpanet
+title: ARPANET
 aliases: []
-id: "arpanet"
 ---
 
 # ARPANET

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "ARPA"
+schema: niti/v1
+kind: organization
+id: arpa
+title: ARPA
 aliases: []
-id: "arpa"
 ---
 
 # ARPA

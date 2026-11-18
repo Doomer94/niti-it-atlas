@@ -1,14 +1,22 @@
 ---
-schema: "niti/v1"
-kind: "event"
-title: "Видение общей сети"
-date: {"start":"1962","end":null,"precision":"year","basis":"event"}
-topics: ["net"]
-people: ["jcr-licklider"]
-organizations: ["arpa"]
-status: "draft"
-sources: ["internet"]
-id: "licklider"
+schema: niti/v1
+kind: event
+id: licklider
+title: Видение общей сети
+date:
+  start: "1962"
+  end: null
+  precision: year
+  basis: event
+topics:
+  - net
+people:
+  - jcr-licklider
+organizations:
+  - arpa
+status: draft
+sources:
+  - internet
 ---
 
 # Видение общей сети

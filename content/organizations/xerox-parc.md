@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Xerox PARC"
+schema: niti/v1
+kind: organization
+id: xerox-parc
+title: Xerox PARC
 aliases: []
-id: "xerox-parc"
 ---
 
 # Xerox PARC

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "organization"
-title: "Bell Labs"
+schema: niti/v1
+kind: organization
+id: bell-labs
+title: Bell Labs
 aliases: []
-id: "bell-labs"
 ---
 
 # Bell Labs

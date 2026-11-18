@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Уолтер Браттейн"
+schema: niti/v1
+kind: person
+id: walter-brattain
+title: Уолтер Браттейн
 aliases: []
-id: "walter-brattain"
 ---
 
 # Уолтер Браттейн

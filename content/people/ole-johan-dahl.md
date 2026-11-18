@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "person"
-title: "Оле-Йохан Даль"
+schema: niti/v1
+kind: person
+id: ole-johan-dahl
+title: Оле-Йохан Даль
 aliases: []
-id: "ole-johan-dahl"
 ---
 
 # Оле-Йохан Даль

@@ -1,9 +1,9 @@
 ---
-schema: "niti/v1"
-kind: "topic"
-title: "Сети и Интернет"
+schema: niti/v1
+kind: topic
+id: net
+title: Сети и Интернет
 color: "#e9bc7c"
-id: "net"
 ---
 
 

@@ -1,13 +1,15 @@
 ---
-schema: "niti/v1"
-kind: "relation"
-from: "licklider"
-to: "arpanet"
-type: "idea"
-certainty: "interpretation"
-status: "draft"
-evidence: [{"source":"internet","locator":null}]
-id: "licklider--arpanet"
+schema: niti/v1
+kind: relation
+id: licklider--arpanet
+from: licklider
+to: arpanet
+type: idea
+certainty: interpretation
+status: draft
+evidence:
+  - source: internet
+    locator: null
 ---
 
 # licklider → arpanet
