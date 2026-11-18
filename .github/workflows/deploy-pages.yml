@@ -1,0 +1,50 @@
+name: Publish atlas to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test the historical content
+        run: node --test tests/content.test.mjs
+      - name: Build and verify generated data
+        run: |
+          node scripts/build.mjs
+          git diff --exit-code -- dist/data.js dist/knowledge.json
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the static atlas
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the atlas
+        id: deployment
+        uses: actions/deploy-pages@v4
