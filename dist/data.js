@@ -228,6 +228,10 @@ const SOURCES={
     "Кейси Муратори · Пояснения и список чтения · 17 июля 2025",
     "https://www.computerenhance.com/p/the-big-oops-anatomy-of-a-thirty"
   ],
+  "nam-second-world-war": [
+    "National Army Museum · Second World War",
+    "https://www.nam.ac.uk/explore/second-world-war"
+  ],
   "oracle-java-timeline": [
     "Oracle · A Brief History of Java",
     "https://education.oracle.com/file/general/4955_BriefHistoryOfJava_7.pdf"
@@ -239,6 +243,10 @@ const SOURCES={
   "plex": [
     "Дуглас Росс и Кларенс Фельдман · Отчёт об AED, 1964",
     "https://doi.org/10.1145/800265.810743"
+  ],
+  "pritzker-vietnam-origins": [
+    "Pritzker Military Museum & Library · Origins of the Vietnam War",
+    "https://www.pritzkermilitary.org/explore/museum/past-exhibits/faces-war-photography-front-lines-vietnam/origins-vietnam-war"
   ],
   "prohitech-amd-history": [
     "Pro Hi-Tech · Все успехи и провалы AMD",
@@ -311,6 +319,10 @@ const SOURCES={
   "stanford-park-milestones": [
     "Stanford Archives · University milestones",
     "https://guides.library.stanford.edu/c.php?g=1311993&p=9846400"
+  ],
+  "state-vietnam-ending": [
+    "Office of the Historian · Ending the Vietnam War, 1969–1973",
+    "https://history.state.gov/milestones/1969-1976/ending-vietnam"
   ],
   "stroustrup-faq": [
     "Бьёрн Страуструп · FAQ · История C++",
@@ -4196,5 +4208,42 @@ const LINKS=[
         "locator": null
       }
     ]
+  }
+];
+const CONTEXT_PERIODS=[
+  {
+    "id": "second-world-war",
+    "title": "Вторая мировая война",
+    "date": {
+      "start": "1939",
+      "end": "1945",
+      "precision": "year",
+      "basis": "event"
+    },
+    "color": "#d4ad83",
+    "status": "draft",
+    "sources": [
+      "nam-second-world-war"
+    ],
+    "text": "Глобальный военный конфликт 1939–1945 годов. Полоса позволяет сопоставить события истории технологий с этим историческим периодом.",
+    "note": "Выбрана распространённая периодизация: от вторжения Германии в Польшу в сентябре 1939 до капитуляции Японии в сентябре 1945. Фон показан с точностью до года, поэтому включает годовые интервалы целиком. Совпадение события с полосой не устанавливает причинную связь с войной."
+  },
+  {
+    "id": "vietnam-war",
+    "title": "Война во Вьетнаме",
+    "date": {
+      "start": "1955",
+      "end": "1975",
+      "precision": "year",
+      "basis": "approximate"
+    },
+    "color": "#9eb2c5",
+    "status": "draft",
+    "sources": [
+      "pritzker-vietnam-origins",
+      "state-vietnam-ending"
+    ],
+    "text": "Для исторической подложки выбран диапазон 1955–1975 годов. Он помогает увидеть одновременность конфликта и развития вычислительных технологий.",
+    "note": "Начало войны датируют по-разному в зависимости от того, рассматривается ли становление конфликта, участие отдельных стран или период крупных боевых действий. Здесь использована периодизация музея Pritzker; окончание связано с падением Сайгона 30 апреля 1975. Полоса имеет точность до года и не является границей участия каждой страны. Она не доказывает влияние войны на конкретную разработку."
   }
 ];

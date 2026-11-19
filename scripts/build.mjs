@@ -3,7 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import YAML from '../vendor/yaml/dist/index.js';
 export const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const FOLDERS={events:'event',people:'person',organizations:'organization',sources:'source',relations:'relation',topics:'topic'};
+const FOLDERS={events:'event',people:'person',organizations:'organization',sources:'source',relations:'relation',topics:'topic',periods:'period'};
 const fail=(file,message)=>{throw new Error(`${file}: ${message}`);};
 export function parseMarkdown(text,file='record.md'){
  const m=text.replace(/^\uFEFF/,'').replace(/\r\n/g,'\n').match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -18,7 +18,7 @@ export function parseMarkdown(text,file='record.md'){
  for(const key in sections)sections[key]=sections[key].trim();return {...meta,body:m[2].trim(),sections,file};
 }
 export function loadContent(contentRoot=path.join(ROOT,'content')){
- const db={};for(const [folder,kind] of Object.entries(FOLDERS)){db[folder]=new Map;for(const name of fs.readdirSync(path.join(contentRoot,folder)).filter(n=>n.endsWith('.md')).sort()){const file=path.join(folder,name),r=parseMarkdown(fs.readFileSync(path.join(contentRoot,file),'utf8'),file);if(r.kind!==kind)fail(file,`ожидается kind ${kind}`);if(name!==r.id+'.md')fail(file,'имя файла должно совпадать с id');if(db[folder].has(r.id))fail(file,'дубликат id');db[folder].set(r.id,r);}}
+ const db={};for(const [folder,kind] of Object.entries(FOLDERS)){db[folder]=new Map;const directory=path.join(contentRoot,folder);if(folder==='periods'&&!fs.existsSync(directory))continue;for(const name of fs.readdirSync(directory).filter(n=>n.endsWith('.md')).sort()){const file=path.join(folder,name),r=parseMarkdown(fs.readFileSync(path.join(contentRoot,file),'utf8'),file);if(r.kind!==kind)fail(file,`ожидается kind ${kind}`);if(name!==r.id+'.md')fail(file,'имя файла должно совпадать с id');if(db[folder].has(r.id))fail(file,'дубликат id');db[folder].set(r.id,r);}}
  validate(db);return db;
 }
 export function validate(db){
@@ -27,15 +27,16 @@ export function validate(db){
  const status=r=>{if(!['draft','reviewed'].includes(r.status))fail(r.file,'status: draft | reviewed');};
  const dateValue=(v,precision)=>{if(typeof v!=='string')return false;const re={year:/^\d{4}$/,month:/^\d{4}-\d{2}$/,day:/^\d{4}-\d{2}-\d{2}$/}[precision];if(!re?.test(v)||+v.slice(0,4)<1)return false;const full=v+(precision==='year'?'-01-01':precision==='month'?'-01':'');const d=new Date(full+'T00:00:00Z');return Number.isFinite(+d)&&d.toISOString().startsWith(full);};
  for(const [folder,records] of Object.entries(db))for(const r of records.values()){
-  const common=['schema','kind','id','body','sections','file'];const fields={events:['title','date','topics','people','organizations','status','sources'],people:['title','aliases'],organizations:['title','aliases'],sources:['title','url','source_type','language'],topics:['title','color'],relations:['from','to','type','certainty','status','evidence']}[folder];
+  const common=['schema','kind','id','body','sections','file'];const fields={events:['title','date','topics','people','organizations','status','sources'],people:['title','aliases'],organizations:['title','aliases'],sources:['title','url','source_type','language'],topics:['title','color'],relations:['from','to','type','certainty','status','evidence'],periods:['title','date','color','status','sources']}[folder];
   for(const key of Object.keys(r))if(!common.includes(key)&&!fields.includes(key))fail(r.file,`неизвестное поле ${key}`);
   if(folder==='sources')str(r,'language');
   if(folder!=='relations')str(r,'title');
   if(folder==='sources'){str(r,'url');let url;try{url=new URL(r.url);}catch{fail(r.file,'некорректный URL');}if(!['https:','http:'].includes(url.protocol))fail(r.file,'источник должен иметь http(s) URL');if(!['primary','institutional','secondary'].includes(r.source_type))fail(r.file,'неверный source_type');}
-  if(folder==='topics'&&!/^#[0-9a-fA-F]{6}$/.test(r.color))fail(r.file,'color: #RRGGBB');
+  if(['topics','periods'].includes(folder)&&!/^#[0-9a-fA-F]{6}$/.test(r.color))fail(r.file,'color: #RRGGBB');
   if(folder==='people'||folder==='organizations'){if(!Array.isArray(r.aliases)||r.aliases.some(x=>typeof x!=='string'))fail(r.file,'aliases: массив строк');}
-  if(folder==='events'){
+  if(folder==='events'||folder==='periods'){
    const d=r.date;if(!d||!dateValue(d.start,d.precision)||(d.end!==null&&!dateValue(d.end,d.precision)))fail(r.file,'некорректная дата или точность');if(d.end!==null&&d.end<d.start)fail(r.file,'конец даты раньше начала');if(!['event','publication','version','approximate'].includes(d.basis))fail(r.file,'неверное основание даты');
+   if(folder==='periods'){if(d.end===null)fail(r.file,'для периода нужен конец даты');refs(r,'sources','sources',1);status(r);if(!r.sections['Кратко'])fail(r.file,'нужен раздел ## Кратко');continue;}
    refs(r,'topics','topics',1);refs(r,'people','people');refs(r,'organizations','organizations');refs(r,'sources','sources',1);status(r);
    for(const heading of ['Кратко','Задача','Значение'])if(!r.sections[heading])fail(r.file,`нужен раздел ## ${heading}`);
   }
@@ -55,7 +56,8 @@ export function compile(db){
  const ENTITIES={people:object('people',r=>({id:r.id,title:r.title,aliases:r.aliases,body:r.body})),orgs:object('organizations',r=>({id:r.id,title:r.title,aliases:r.aliases,body:r.body}))};
  const EVENTS=[...db.events.values()].sort((a,b)=>a.date.start.localeCompare(b.date.start)||a.id.localeCompare(b.id)).map(r=>({id:r.id,title:r.title,date:r.date,year:+r.date.start.slice(0,4),topic:r.topics[0],topics:r.topics,people:r.people,orgs:r.organizations,status:r.status,sources:r.sources,text:r.sections['Кратко'],problem:r.sections['Задача'],meaning:r.sections['Значение'],note:r.sections['Примечание']||'',more:r.sections['Подробнее']||''}));
  const LINKS=[...db.relations.values()].map(r=>({id:r.id,from:r.from,to:r.to,type:r.type,certainty:r.certainty,status:r.status,text:r.sections['Основание'],evidence:r.evidence}));
- return {SOURCES,TOPICS,ENTITIES,EVENTS,LINKS};
+ const CONTEXT_PERIODS=[...(db.periods||new Map).values()].sort((a,b)=>a.date.start.localeCompare(b.date.start)).map(r=>({id:r.id,title:r.title,date:r.date,color:r.color,status:r.status,sources:r.sources,text:r.sections['Кратко'],note:r.sections['Примечание']||''}));
+ return {SOURCES,TOPICS,ENTITIES,EVENTS,LINKS,CONTEXT_PERIODS};
 }
 export function build(){const data=compile(loadContent());fs.writeFileSync(path.join(ROOT,'dist/data.js'),'// Generated from content/**/*.md. Do not edit.\n'+Object.entries(data).map(([k,v])=>`const ${k}=${JSON.stringify(v,null,2)};`).join('\n')+'\n');fs.writeFileSync(path.join(ROOT,'dist/knowledge.json'),JSON.stringify({schema:'niti/export-v1',...data},null,2)+'\n');console.log(`Validated and built: ${data.EVENTS.length} events, ${data.LINKS.length} relations.`);return data;}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))try{build();}catch(e){console.error(e.message);process.exitCode=1;}

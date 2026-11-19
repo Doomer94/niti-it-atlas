@@ -17,3 +17,23 @@ body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidd
 /* Colors for additional topics come from the knowledge base. */
 .event{background:color-mix(in srgb,var(--event-color,var(--green)) 10%,var(--bg));border-color:color-mix(in srgb,var(--event-color,var(--green)) 35%,var(--bg))}
 .event .year{color:var(--event-color,var(--green))}
+
+/* Historical context is a non-interactive underlay; its labels stay on the axis. */
+#axis{height:var(--axis-height,42px)}
+#axis.guide-active:before{top:calc(var(--axis-height,42px) - 10px)}
+#time-grid{inset:var(--axis-height,42px) 0 0}
+#cursor-guide{top:var(--axis-height,42px)}
+#context-periods{position:absolute;inset:var(--axis-height,42px) 0 0;pointer-events:none;overflow:hidden}
+.period-band{position:absolute;top:0;bottom:0;background:color-mix(in srgb,var(--period-color) 7%,transparent);border-inline:1px solid color-mix(in srgb,var(--period-color) 30%,transparent)}
+.period-label{position:absolute;top:32px;height:43px;min-width:0;padding:5px 8px;text-align:left;overflow:hidden;border-left:2px solid var(--period-color);background:color-mix(in srgb,var(--period-color) 12%,#131a16);color:var(--period-color);border-radius:0 4px 4px 0}
+.period-label strong{display:block;font-size:10px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.period-label small{display:block;font:9px monospace;margin-top:4px;white-space:nowrap}
+.period-label:hover{background:color-mix(in srgb,var(--period-color) 22%,#131a16)}
+.zoom #context-toggle{width:auto;padding:0 10px;font-size:11px;border:1px solid var(--line);border-radius:4px;color:var(--muted)}
+.zoom #context-toggle[aria-pressed="true"]{border-color:#657566;color:var(--text);background:#263229}
+.context-legend{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+#context-key button{display:flex;align-items:center;gap:9px;width:100%;padding:9px 0;text-align:left;color:var(--period-color);font-size:11px}
+#context-key i{width:10px;height:24px;flex:none;border-left:2px solid var(--period-color);background:color-mix(in srgb,var(--period-color) 15%,transparent)}
+#context-key span{min-width:0}#context-key small{display:block;margin-top:3px;color:var(--muted);font:10px monospace}
+@media(max-width:650px){.zoom{gap:4px}.zoom #context-toggle{padding:0 6px;font-size:10px}}
+@media(max-width:650px){.map-heading{flex-wrap:wrap;gap:8px}.map-heading .zoom{margin-left:auto}}
